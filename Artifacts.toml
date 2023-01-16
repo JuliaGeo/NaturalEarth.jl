@@ -1,0 +1,1646 @@
+[ne_10m_admin_0_antarctic_claim_limit_lines]
+git-tree-sha1 = "dad46d621a593d7ad3002e2cced054914299f132"
+lazy = true
+
+    [[ne_10m_admin_0_antarctic_claim_limit_lines.download]]
+    sha256 = "62a319e60a5235a859c4f3c7c0195ca2a9da7250f62cafc656a4abfcf251e251"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_antarctic_claim_limit_lines.geojson"
+
+[ne_10m_admin_0_antarctic_claims]
+git-tree-sha1 = "5a5c2f342863e3587a0a550c64708ba968fb40d4"
+lazy = true
+
+    [[ne_10m_admin_0_antarctic_claims.download]]
+    sha256 = "471a64761ec1fd4fcd6ccc40dccff3d9be2eab88cbc7f87f4229553fdac7335e"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_antarctic_claims.geojson"
+
+[ne_10m_admin_0_boundary_lines_disputed_areas]
+git-tree-sha1 = "1e04828ab104a98c1495c4cb274a2145a6ca5c2e"
+lazy = true
+
+    [[ne_10m_admin_0_boundary_lines_disputed_areas.download]]
+    sha256 = "69f19da764e6982b43aebae4b1a356ffe74c33f2a3cdb462637c0ba8e969c30b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_disputed_areas.geojson"
+
+[ne_10m_admin_0_boundary_lines_land]
+git-tree-sha1 = "0c482a01bca1cb6df7cdc6b226130f1a80702b13"
+lazy = true
+
+    [[ne_10m_admin_0_boundary_lines_land.download]]
+    sha256 = "74d9c16229c095fde65943a9919e337682f044bcebccb120764f38edf3b70f4a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_land.geojson"
+
+[ne_10m_admin_0_boundary_lines_map_units]
+git-tree-sha1 = "2493b4821cb1bafa4a98b564ca549294d2998ccb"
+lazy = true
+
+    [[ne_10m_admin_0_boundary_lines_map_units.download]]
+    sha256 = "9ecd9fa2238fa175b596b40142bf664162ef6be3c757679cd2901ce0ed9944e6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_map_units.geojson"
+
+[ne_10m_admin_0_boundary_lines_maritime_indicator]
+git-tree-sha1 = "a0bd636df86a2d680b99b9dcb945bc2155598e7c"
+lazy = true
+
+    [[ne_10m_admin_0_boundary_lines_maritime_indicator.download]]
+    sha256 = "9cfe9cb1e06431abb14ddb41412991cc9933402622e32a3e5739b6fa9cf1ef1a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_maritime_indicator.geojson"
+
+[ne_10m_admin_0_boundary_lines_maritime_indicator_chn]
+git-tree-sha1 = "af602e7f757318786c6143e19bb7a55872cc849e"
+lazy = true
+
+    [[ne_10m_admin_0_boundary_lines_maritime_indicator_chn.download]]
+    sha256 = "6d8649e20b41a944937cbca983052c99c74662e681e7551c3936aff40cbfc17b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_maritime_indicator_chn.geojson"
+
+[ne_10m_admin_0_countries]
+git-tree-sha1 = "0f5c8d3171ca7f137dab0d30450094c9fc86016b"
+lazy = true
+
+    [[ne_10m_admin_0_countries.download]]
+    sha256 = "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson"
+
+[ne_10m_admin_0_countries_arg]
+git-tree-sha1 = "09a6c91a2de7aec97848af218dcf9d0f8ac6f507"
+lazy = true
+
+    [[ne_10m_admin_0_countries_arg.download]]
+    sha256 = "5de5c83114945be5c328295abf31d29641ffe7f0280c0f8f746777648fae5803"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_arg.geojson"
+
+[ne_10m_admin_0_countries_bdg]
+git-tree-sha1 = "c330de84fe663a9dfeee88a2a7b3c88f3a262642"
+lazy = true
+
+    [[ne_10m_admin_0_countries_bdg.download]]
+    sha256 = "201b2e38710402b6c7221094d49d5f87c4cb7e3cfa69274a571e2e13d73d8840"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_bdg.geojson"
+
+[ne_10m_admin_0_countries_bra]
+git-tree-sha1 = "710623df2172002e1e9504a696ceb4dd3f30cf4c"
+lazy = true
+
+    [[ne_10m_admin_0_countries_bra.download]]
+    sha256 = "de70a3924150e0a6f866fcb507270dc8040afbf9a4addab009783f241e7e2687"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_bra.geojson"
+
+[ne_10m_admin_0_countries_chn]
+git-tree-sha1 = "656ae55071b21394436243465a289b5ac69006c2"
+lazy = true
+
+    [[ne_10m_admin_0_countries_chn.download]]
+    sha256 = "a13bf5f310fde87bc0a5f994f8ce9bd706cc198d8ee37d221e61c2546b945372"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_chn.geojson"
+
+[ne_10m_admin_0_countries_deu]
+git-tree-sha1 = "e8e5a470c11eb48ae87a1dfe5363a6900a741278"
+lazy = true
+
+    [[ne_10m_admin_0_countries_deu.download]]
+    sha256 = "fc4d56c6bc256f779e0ba21579f81d64885f5296dba3c23c3e78a9b89a7aa0fb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_deu.geojson"
+
+[ne_10m_admin_0_countries_egy]
+git-tree-sha1 = "cca541135f784842d4ebdf1fe04e9b62b40997e3"
+lazy = true
+
+    [[ne_10m_admin_0_countries_egy.download]]
+    sha256 = "4ed6984fca9bc368619be9b9b7026beef007251b8ccab27ebaeeea0d4af74eaa"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_egy.geojson"
+
+[ne_10m_admin_0_countries_esp]
+git-tree-sha1 = "49a951216920af50ca92095ef9e3330593329a9f"
+lazy = true
+
+    [[ne_10m_admin_0_countries_esp.download]]
+    sha256 = "e61193d14bc4b41c1652ff94a939d6b4123102329a41524e0accd3463e3079c8"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_esp.geojson"
+
+[ne_10m_admin_0_countries_fra]
+git-tree-sha1 = "86a8825b507ab7ecc281d1e67a2cacba7af7711c"
+lazy = true
+
+    [[ne_10m_admin_0_countries_fra.download]]
+    sha256 = "273def0394f5e344ff4938b1cbe9c48f36aea2e8e1635a8814768bc50f5dd44c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_fra.geojson"
+
+[ne_10m_admin_0_countries_gbr]
+git-tree-sha1 = "30af0d0212a9cc938e712f2e19527f2bcfa6c848"
+lazy = true
+
+    [[ne_10m_admin_0_countries_gbr.download]]
+    sha256 = "7acfd0ccade031cd165630e4d5e9b51650079976d94008100407d03e0e83a492"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_gbr.geojson"
+
+[ne_10m_admin_0_countries_grc]
+git-tree-sha1 = "28d7281cb9d46ed5e371725e1a22e033f5a24cfa"
+lazy = true
+
+    [[ne_10m_admin_0_countries_grc.download]]
+    sha256 = "ca4ad82c571e7b507b4382ede1377596e869f680ebcae258bed887c58e94d060"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_grc.geojson"
+
+[ne_10m_admin_0_countries_idn]
+git-tree-sha1 = "523a66b91f7524ef7fa0ce9fb07012b86c7517f3"
+lazy = true
+
+    [[ne_10m_admin_0_countries_idn.download]]
+    sha256 = "cc5292e1082cdeaa8b92d3314faf89cb0f0b7d5ac4808c72fd7b6efdd3886249"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_idn.geojson"
+
+[ne_10m_admin_0_countries_ind]
+git-tree-sha1 = "e2c9573236aa6fdf22e9db36095f59d40c3fa1cf"
+lazy = true
+
+    [[ne_10m_admin_0_countries_ind.download]]
+    sha256 = "3e67a5a6ddeff3247ca8400cd2514fd4a5ac6e5432823b25d610a7028597d45f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_ind.geojson"
+
+[ne_10m_admin_0_countries_iso]
+git-tree-sha1 = "bbbe4a70ef423270262077d923e033241bdf228d"
+lazy = true
+
+    [[ne_10m_admin_0_countries_iso.download]]
+    sha256 = "60eb10aa951f5872507c9436937508b09be4b43dc9fa7aad7644f23ef12e1cad"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_iso.geojson"
+
+[ne_10m_admin_0_countries_isr]
+git-tree-sha1 = "3631699fda84701d246fd6e91c3edee019a4bddd"
+lazy = true
+
+    [[ne_10m_admin_0_countries_isr.download]]
+    sha256 = "45e43bd18bb0d97290ec1751c8b669c7e99a69ca0413b7a0d3196505fc42d4aa"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_isr.geojson"
+
+[ne_10m_admin_0_countries_ita]
+git-tree-sha1 = "cf8e4cff7883fea602a033729bff9653eb2a986e"
+lazy = true
+
+    [[ne_10m_admin_0_countries_ita.download]]
+    sha256 = "36e4d8f5f00b5a9ed9a086ef38e330110d7e9cd8fc3b93f54c739123b80531ec"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_ita.geojson"
+
+[ne_10m_admin_0_countries_jpn]
+git-tree-sha1 = "a259370c385e21768c7447b45091bf254a122cc9"
+lazy = true
+
+    [[ne_10m_admin_0_countries_jpn.download]]
+    sha256 = "11bc047064a5cf2db03efc2aece341e657df2dd59ad715a8221cc1575697df1b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_jpn.geojson"
+
+[ne_10m_admin_0_countries_kor]
+git-tree-sha1 = "e3c93ef1634b89c708ab333f2447e064bb147c8e"
+lazy = true
+
+    [[ne_10m_admin_0_countries_kor.download]]
+    sha256 = "0dd7351fd445628d190d40a3f7b756fea21fd058e63e400ad498e4108ea0130c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_kor.geojson"
+
+[ne_10m_admin_0_countries_lakes]
+git-tree-sha1 = "8358018abfbeec49fe6b5d0b10d74dffe51f5574"
+lazy = true
+
+    [[ne_10m_admin_0_countries_lakes.download]]
+    sha256 = "4caf607838c3cfd211a52edda259e315513390a717a11067c5eb280f766cfb78"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_lakes.geojson"
+
+[ne_10m_admin_0_countries_mar]
+git-tree-sha1 = "3b0408fcd40baf7d003ee430d541bd2eeba6c899"
+lazy = true
+
+    [[ne_10m_admin_0_countries_mar.download]]
+    sha256 = "71cfbfcb408cf9277dbd5700da168f4634e8e80a9a8b114eb595d739bebd6598"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_mar.geojson"
+
+[ne_10m_admin_0_countries_nep]
+git-tree-sha1 = "44087343e1ec7c53d4208c56341ce8874c1afd42"
+lazy = true
+
+    [[ne_10m_admin_0_countries_nep.download]]
+    sha256 = "b56e5675c080fca9f520a37cebae32d549cf60cbe2aa0b46453eb74cfb27c297"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_nep.geojson"
+
+[ne_10m_admin_0_countries_nld]
+git-tree-sha1 = "7e18a5362db086addcdee89a574588ad3c4febdc"
+lazy = true
+
+    [[ne_10m_admin_0_countries_nld.download]]
+    sha256 = "9a8327cdff482625ffdb17b982203e23f90ef97a4265becc3c98dc66c145539f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_nld.geojson"
+
+[ne_10m_admin_0_countries_pak]
+git-tree-sha1 = "312e93f546afcda63cce27197f687c4915392b04"
+lazy = true
+
+    [[ne_10m_admin_0_countries_pak.download]]
+    sha256 = "9c070579b14cdef62bc5f7ecf9dfc8320195b3c211c4032f8d46087a70a0599c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_pak.geojson"
+
+[ne_10m_admin_0_countries_pol]
+git-tree-sha1 = "e4a21adb171c66d675aabe93e1632a4d93b68c98"
+lazy = true
+
+    [[ne_10m_admin_0_countries_pol.download]]
+    sha256 = "4d8ef44ed174a06d678dc751bd0a29a4f36da310c3719a54dad88ad68855ed8f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_pol.geojson"
+
+[ne_10m_admin_0_countries_prt]
+git-tree-sha1 = "b43e3ce5d19cb5fa66ae2444f2b128f8662a41ea"
+lazy = true
+
+    [[ne_10m_admin_0_countries_prt.download]]
+    sha256 = "7c9d4d5a72a13ef7d242f9a3c4211ddaf009becddfbfae1311aafbd1c65982c3"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_prt.geojson"
+
+[ne_10m_admin_0_countries_pse]
+git-tree-sha1 = "b79ceb8fb4dfbbda29ff537fa6462a61ed468aaf"
+lazy = true
+
+    [[ne_10m_admin_0_countries_pse.download]]
+    sha256 = "ec53197338ffdda19bd238d32e309bee2fefbc8cedda368365a62f92d63d8f18"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_pse.geojson"
+
+[ne_10m_admin_0_countries_rus]
+git-tree-sha1 = "6a8cc52400de0483e5988352dec5ef72899d4f6d"
+lazy = true
+
+    [[ne_10m_admin_0_countries_rus.download]]
+    sha256 = "c8dc3acedf6e1b4e42a21a7eade7fa9664a6f4ff0ed0b3d60aeeeb45dc31b771"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_rus.geojson"
+
+[ne_10m_admin_0_countries_sau]
+git-tree-sha1 = "f92f79a1a02b65dd0b7add5f26ffb13de0aa25fd"
+lazy = true
+
+    [[ne_10m_admin_0_countries_sau.download]]
+    sha256 = "43b6675bb0fe9f4e0feb68c5a1e9b0b71f4a41c6d5fd4134b41db6f843134cf8"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_sau.geojson"
+
+[ne_10m_admin_0_countries_swe]
+git-tree-sha1 = "e4f466e6a15995f439af7264520d5ba862bf3547"
+lazy = true
+
+    [[ne_10m_admin_0_countries_swe.download]]
+    sha256 = "7f50094bd832c91839666d02dab070d0b6220c58852ef430a1df1e3544fd3259"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_swe.geojson"
+
+[ne_10m_admin_0_countries_tlc]
+git-tree-sha1 = "15fa5e4543a3148013b7a976ee8c87c2ec195fdb"
+lazy = true
+
+    [[ne_10m_admin_0_countries_tlc.download]]
+    sha256 = "43f1a608f9f0bfa5facfd53d9c83585d275c0849bd09e04d1517d6848a55c652"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_tlc.geojson"
+
+[ne_10m_admin_0_countries_tur]
+git-tree-sha1 = "833da205c34852b5348181fae0b503d19eea61eb"
+lazy = true
+
+    [[ne_10m_admin_0_countries_tur.download]]
+    sha256 = "225a283ee34da427fd77bdf046017cf9bdaae576da6ed66ea23a8e6757b1018f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_tur.geojson"
+
+[ne_10m_admin_0_countries_twn]
+git-tree-sha1 = "42d29c166e7455c2945ccecae9ed9b5257aaf44e"
+lazy = true
+
+    [[ne_10m_admin_0_countries_twn.download]]
+    sha256 = "a8719781480a862c9243ceab07d47e3be3569b5cd550662918d4bc0886a4b9be"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_twn.geojson"
+
+[ne_10m_admin_0_countries_ukr]
+git-tree-sha1 = "71dc19c0adfcaa4a33e9851c9d9c4136b02a0f9b"
+lazy = true
+
+    [[ne_10m_admin_0_countries_ukr.download]]
+    sha256 = "28a1a17d7327cad576083d5122b867843f957468b1bb11168ded23fd5aea342e"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_ukr.geojson"
+
+[ne_10m_admin_0_countries_usa]
+git-tree-sha1 = "97c3aba339f74122807e4b778d5193ddd5434454"
+lazy = true
+
+    [[ne_10m_admin_0_countries_usa.download]]
+    sha256 = "d3166691d3d86f113c0d8db52506f4b72936513691d1593f47010fed01fc0b93"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_usa.geojson"
+
+[ne_10m_admin_0_countries_vnm]
+git-tree-sha1 = "6782cc07d69ae2973da3f166002c47b719bfecd2"
+lazy = true
+
+    [[ne_10m_admin_0_countries_vnm.download]]
+    sha256 = "90067c7f246a7e85a5d501b8f3d7367ad2287816c85ebd8d44634600caf26b64"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_vnm.geojson"
+
+[ne_10m_admin_0_disputed_areas]
+git-tree-sha1 = "fe522ccb47d20f9904b7beedd2a9cb85056d735f"
+lazy = true
+
+    [[ne_10m_admin_0_disputed_areas.download]]
+    sha256 = "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_disputed_areas.geojson"
+
+[ne_10m_admin_0_disputed_areas_scale_rank_minor_islands]
+git-tree-sha1 = "885e300aee5e806091f260f8990c3e12d531cb8b"
+lazy = true
+
+    [[ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.download]]
+    sha256 = "146c9bced0f9b2139002e8f36e65febb4366998d9eb1598acef3b31d3ba625b4"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.geojson"
+
+[ne_10m_admin_0_label_points]
+git-tree-sha1 = "ff00e9c900ed29f17b6770fa4faa40173a0e05ff"
+lazy = true
+
+    [[ne_10m_admin_0_label_points.download]]
+    sha256 = "2f26ad9dd03c543d1aec3cd593c288367fd27a0ccd68db8a31182a95ad361196"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_label_points.geojson"
+
+[ne_10m_admin_0_map_subunits]
+git-tree-sha1 = "be9c832fed277d08aca3938a7b25849e9ca8fe80"
+lazy = true
+
+    [[ne_10m_admin_0_map_subunits.download]]
+    sha256 = "76896018b9265072d8063e118e46df765be0ceb54a803b1a2571ebe25b36a071"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_subunits.geojson"
+
+[ne_10m_admin_0_map_units]
+git-tree-sha1 = "ddd4cb39a43a0dc2f63126628ecaeecf4e77d805"
+lazy = true
+
+    [[ne_10m_admin_0_map_units.download]]
+    sha256 = "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_units.geojson"
+
+[ne_10m_admin_0_pacific_groupings]
+git-tree-sha1 = "2159a4517d48a6e77368ac66f755d507934b354a"
+lazy = true
+
+    [[ne_10m_admin_0_pacific_groupings.download]]
+    sha256 = "fa7fcc45efd94ab7f6912c9d70c4169a6023fa3053e145c71f26b674c2d914cf"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_pacific_groupings.geojson"
+
+[ne_10m_admin_0_scale_rank]
+git-tree-sha1 = "4aa955110841944f9dada5958502d4aca2a36583"
+lazy = true
+
+    [[ne_10m_admin_0_scale_rank.download]]
+    sha256 = "fa43ae5b68af13b4b0a039ae1be3a37574f32883a8b2c76d05e3eafd48e90ba0"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_scale_rank.geojson"
+
+[ne_10m_admin_0_scale_rank_minor_islands]
+git-tree-sha1 = "d52a25ae236175e49a1d88b0c3a64607eb4ca54f"
+lazy = true
+
+    [[ne_10m_admin_0_scale_rank_minor_islands.download]]
+    sha256 = "33894061cb11124bcb14b998a7b92b5b60cf4fbf4cdf215829880589d0984c1b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_scale_rank_minor_islands.geojson"
+
+[ne_10m_admin_0_seams]
+git-tree-sha1 = "bda84f13731d7a3db26f302782c6b149f2000f09"
+lazy = true
+
+    [[ne_10m_admin_0_seams.download]]
+    sha256 = "dd2ca0750df72637dfa685d7e24b3c34fad035944fd243e6a4afdf50f4c89106"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_seams.geojson"
+
+[ne_10m_admin_0_sovereignty]
+git-tree-sha1 = "efee2bf1daa7fc1a91589452f7cf88bc39701de1"
+lazy = true
+
+    [[ne_10m_admin_0_sovereignty.download]]
+    sha256 = "26116f8db548af373900972565187102c39bead516af467255a993e623652225"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_sovereignty.geojson"
+
+[ne_10m_admin_1_label_points]
+git-tree-sha1 = "6b3b2a5ba2257afc32f4eac9669fa41dc332248b"
+lazy = true
+
+    [[ne_10m_admin_1_label_points.download]]
+    sha256 = "73b90ea0d39cbc081bb9d993510e1fc6410dcc7f07c945a2aa725b70427d6854"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_label_points.geojson"
+
+[ne_10m_admin_1_label_points_details]
+git-tree-sha1 = "d34dfceef22483882911be795cc06c4739215da7"
+lazy = true
+
+    [[ne_10m_admin_1_label_points_details.download]]
+    sha256 = "b1291734062033c0a6c0ce7d5268cd1dbfc2dec920977fddef5eb568296fd27b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_label_points_details.geojson"
+
+[ne_10m_admin_1_seams]
+git-tree-sha1 = "30fe268595d80b6b5618c47f20f3d6e908481c8a"
+lazy = true
+
+    [[ne_10m_admin_1_seams.download]]
+    sha256 = "792ba4d3d46a8538944542daec8a191ed6af9d8764a535c7a4aaa052dec90262"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_seams.geojson"
+
+[ne_10m_admin_1_states_provinces]
+git-tree-sha1 = "2db89bf9f8c7d32c25c111873760a1b2d965f2b3"
+lazy = true
+
+    [[ne_10m_admin_1_states_provinces.download]]
+    sha256 = "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson"
+
+[ne_10m_admin_1_states_provinces_lakes]
+git-tree-sha1 = "49dcfdd84479e86d476ee7e9208a8bf6f801422e"
+lazy = true
+
+    [[ne_10m_admin_1_states_provinces_lakes.download]]
+    sha256 = "ff5e330cf097a639cc413ab849814d605ba76307235e3a9eba5d1aa0491beba1"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces_lakes.geojson"
+
+[ne_10m_admin_1_states_provinces_lines]
+git-tree-sha1 = "beff6c61f1542803c1a782e273ca38e5be7f3c2d"
+lazy = true
+
+    [[ne_10m_admin_1_states_provinces_lines.download]]
+    sha256 = "1a1f30ccaaf4cc9c4bde34266f0b8cbb955d3a4cf254b756912255f2ec7c75b6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces_lines.geojson"
+
+[ne_10m_admin_1_states_provinces_scale_rank]
+git-tree-sha1 = "79f726fbf68dbff31b0e500a97d5d20069050b49"
+lazy = true
+
+    [[ne_10m_admin_1_states_provinces_scale_rank.download]]
+    sha256 = "1c2d4ea5580d2a3f7f6911b59eb7d6719c7025fe365b76cc35e31a7cea2747fc"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces_scale_rank.geojson"
+
+[ne_10m_admin_2_counties]
+git-tree-sha1 = "6cdd25a5904d1a8488414720a679851582c96466"
+lazy = true
+
+    [[ne_10m_admin_2_counties.download]]
+    sha256 = "9a80308d80eef51a0c1ade49aeb9ca877957a346f880e177a85527ef6cfdd1bb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_counties.geojson"
+
+[ne_10m_admin_2_counties_lakes]
+git-tree-sha1 = "a99e1a7ddfdda5c87bdcf809353153b84d3a1a25"
+lazy = true
+
+    [[ne_10m_admin_2_counties_lakes.download]]
+    sha256 = "564c7ad2aa5f1865088bb57d3310d336ec947ba1582b754c98185b8917b28180"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_counties_lakes.geojson"
+
+[ne_10m_admin_2_counties_scale_rank]
+git-tree-sha1 = "c7eea62c47e0a09eb242ede2f73cb64d1b526c7e"
+lazy = true
+
+    [[ne_10m_admin_2_counties_scale_rank.download]]
+    sha256 = "92148bbbca82e014defa21238ab697a194491a6ac0f439660ebc2dc2011fccb6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_counties_scale_rank.geojson"
+
+[ne_10m_admin_2_counties_scale_rank_minor_islands]
+git-tree-sha1 = "ebef2e7aa62c60bb886cbbc228a137f70fc1ab3c"
+lazy = true
+
+    [[ne_10m_admin_2_counties_scale_rank_minor_islands.download]]
+    sha256 = "0adac36a7e5374caed25832b433520704c65ef9be6462fffaeb659469e318290"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_counties_scale_rank_minor_islands.geojson"
+
+[ne_10m_admin_2_label_points]
+git-tree-sha1 = "b8c13e482cfc4994cddc0b6aa825f58c04eee065"
+lazy = true
+
+    [[ne_10m_admin_2_label_points.download]]
+    sha256 = "a2e6392e05c90bd227727719d4ef784c326529702e41707cb4e78656e0715008"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_label_points.geojson"
+
+[ne_10m_admin_2_label_points_details]
+git-tree-sha1 = "f4605b704344571492226d1e37cac2f61c74101f"
+lazy = true
+
+    [[ne_10m_admin_2_label_points_details.download]]
+    sha256 = "cabfbc167a1652ddb4fdd25a28c54f1a82e559e2d5fa168313216760f591f3b8"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_2_label_points_details.geojson"
+
+[ne_10m_airports]
+git-tree-sha1 = "d98c6fbb2225c0892937d67640a5ae5ac4b524e6"
+lazy = true
+
+    [[ne_10m_airports.download]]
+    sha256 = "28892a892f670f1cf654c62253c6169fdc2504b92c956addb4ac8224f50cebe0"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_airports.geojson"
+
+[ne_10m_antarctic_ice_shelves_lines]
+git-tree-sha1 = "598fecde0991135b5814f52a6f4a9f409c845083"
+lazy = true
+
+    [[ne_10m_antarctic_ice_shelves_lines.download]]
+    sha256 = "0106dc9dce33da3c933a8d84e6b658ccebed017b101ea53e6d91e87e0e3a013b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_antarctic_ice_shelves_lines.geojson"
+
+[ne_10m_antarctic_ice_shelves_polys]
+git-tree-sha1 = "6d4ec456fe8643ed6892c1c91bab28fd160ea904"
+lazy = true
+
+    [[ne_10m_antarctic_ice_shelves_polys.download]]
+    sha256 = "8f9bf62368695f5664b5fcd9bc0e2baea66da295aea014ce0e9cf510f209898d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_antarctic_ice_shelves_polys.geojson"
+
+[ne_10m_bathymetry_A_10000]
+git-tree-sha1 = "dda2889c75c3b9077bc5d13e1948917610a3bcaa"
+lazy = true
+
+    [[ne_10m_bathymetry_A_10000.download]]
+    sha256 = "8821d6e8003f0a74a6d1d18379ded88ee638b3e457f2bab9d4124acc3cd15492"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_A_10000.geojson"
+
+[ne_10m_bathymetry_B_9000]
+git-tree-sha1 = "6ccb37e2ee26fd302a2e74f480ee8a4c0d5cec53"
+lazy = true
+
+    [[ne_10m_bathymetry_B_9000.download]]
+    sha256 = "ff0e96b3c3baa863f82503fe3434bd604ffe6fbd27cabee7f71dd1807fcee5a0"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_B_9000.geojson"
+
+[ne_10m_bathymetry_C_8000]
+git-tree-sha1 = "755b8e3e5fa89ac3ccfa92c1966c41503497284d"
+lazy = true
+
+    [[ne_10m_bathymetry_C_8000.download]]
+    sha256 = "8f3694037be7f54bf49fc6fa3f2045f325eacdb69c8828b8d482b303b57e358a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_C_8000.geojson"
+
+[ne_10m_bathymetry_D_7000]
+git-tree-sha1 = "26740c814a8326f136a99ecc6556fd33e7d7a7b8"
+lazy = true
+
+    [[ne_10m_bathymetry_D_7000.download]]
+    sha256 = "19eb5dd59d37d6c6da9b0d04252769c62708aad6a1578f16d6a7b8b30fd05c56"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_D_7000.geojson"
+
+[ne_10m_bathymetry_E_6000]
+git-tree-sha1 = "968cf7d3367510cddd2e4cf2c5ec6ad04d00d718"
+lazy = true
+
+    [[ne_10m_bathymetry_E_6000.download]]
+    sha256 = "75fc34afdd5bc54a3ebe093fc0a680af70cf255f1b3e7e80ad75e795f5cc4c8d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_E_6000.geojson"
+
+[ne_10m_bathymetry_F_5000]
+git-tree-sha1 = "2962fd74839ccce8ce7c92f49af3c16838ed054e"
+lazy = true
+
+    [[ne_10m_bathymetry_F_5000.download]]
+    sha256 = "e7b663f3f6144c1d23b8205618fd1eeb5256c4b03785a8ed009178209d68ba72"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_F_5000.geojson"
+
+[ne_10m_bathymetry_G_4000]
+git-tree-sha1 = "9600e940eabdfc43b112548a8e106a93c9f48ce9"
+lazy = true
+
+    [[ne_10m_bathymetry_G_4000.download]]
+    sha256 = "ad876e6b6b686494a0e89f0096880a6755aee77af3d738794bbbc92216afcf3d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_G_4000.geojson"
+
+[ne_10m_bathymetry_H_3000]
+git-tree-sha1 = "6207fa655a2cec2a751f692d697e658be43bf2a0"
+lazy = true
+
+    [[ne_10m_bathymetry_H_3000.download]]
+    sha256 = "28fda8b34dfb8615f9644bff3e56c184501e21dccb807d428432e56d8dac0cf5"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_H_3000.geojson"
+
+[ne_10m_bathymetry_I_2000]
+git-tree-sha1 = "17c633080d84ad16d30019d4b458df92ce391ace"
+lazy = true
+
+    [[ne_10m_bathymetry_I_2000.download]]
+    sha256 = "cdedc746ce06e1a051cb8905e8f07855225ccbd3560ce3a66607651fc6953ce2"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_I_2000.geojson"
+
+[ne_10m_bathymetry_J_1000]
+git-tree-sha1 = "32e054c59f1544bca136285686d94001e446817e"
+lazy = true
+
+    [[ne_10m_bathymetry_J_1000.download]]
+    sha256 = "fa30219901dd4de34b9f5b20f41bc7c055f9fc9d58cf157ad2679c95239cd366"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_J_1000.geojson"
+
+[ne_10m_bathymetry_K_200]
+git-tree-sha1 = "baed7b945a03a13988e18b9af0abb71df3c60a1f"
+lazy = true
+
+    [[ne_10m_bathymetry_K_200.download]]
+    sha256 = "5c6c182da8608153ea2dce22dfb32c987e5390e0bd4a122266143ba181a7b636"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_K_200.geojson"
+
+[ne_10m_bathymetry_L_0]
+git-tree-sha1 = "aa190ba9539bdbd9620999666f47c27af02da17f"
+lazy = true
+
+    [[ne_10m_bathymetry_L_0.download]]
+    sha256 = "e5efd9f47d56791c949de6d099d6a9cdd4d1aeca98d5dd63947c0b44b9966008"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_bathymetry_L_0.geojson"
+
+[ne_10m_coastline]
+git-tree-sha1 = "a83990a29d662452243e5fcb2c6a97b0c1aedfa4"
+lazy = true
+
+    [[ne_10m_coastline.download]]
+    sha256 = "6f75ae0e0de157b14946e2255eb1f5486d9a13819032e26d4610852d296788f6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_coastline.geojson"
+
+[ne_10m_geographic_lines]
+git-tree-sha1 = "98b46b3599ad3a13bca8869c81f8b0cddb6baacc"
+lazy = true
+
+    [[ne_10m_geographic_lines.download]]
+    sha256 = "e0d96b65c4f08856096550db5e4507d2822f05fe1cc07aadb16ad5ccb3a948e7"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geographic_lines.geojson"
+
+[ne_10m_geography_marine_polys]
+git-tree-sha1 = "ab7524dc1204f5e60eef2c96145c0c8834860faf"
+lazy = true
+
+    [[ne_10m_geography_marine_polys.download]]
+    sha256 = "53f865e8ffa966cdd402145c82c5cd14ee7ce974cd0eb9a3f59f03a4cfd2d66c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_marine_polys.geojson"
+
+[ne_10m_geography_regions_elevation_points]
+git-tree-sha1 = "a5b348ad725e46491a799026b2fee0cab3a01f63"
+lazy = true
+
+    [[ne_10m_geography_regions_elevation_points.download]]
+    sha256 = "f98a16867867146ec4146d6d4b18c823eeedb2825947de666116cf9a4e3f43cb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_elevation_points.geojson"
+
+[ne_10m_geography_regions_points]
+git-tree-sha1 = "7da0ca1867548c71b24b510b28bf53427a5f1c04"
+lazy = true
+
+    [[ne_10m_geography_regions_points.download]]
+    sha256 = "25821b530966e62756faebf53699f12bf73550f8228aa4bbdf3e4132dd7cf806"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_points.geojson"
+
+[ne_10m_geography_regions_polys]
+git-tree-sha1 = "f9965a004b19545a64889109c715c1f09b266063"
+lazy = true
+
+    [[ne_10m_geography_regions_polys.download]]
+    sha256 = "b7b26e50ea917d3696aec87f932def2bf5f890f5770e441d59c162c6f4c92a77"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_polys.geojson"
+
+[ne_10m_glaciated_areas]
+git-tree-sha1 = "edcd8cf75bdf4aac1075dae73c79689a335c1356"
+lazy = true
+
+    [[ne_10m_glaciated_areas.download]]
+    sha256 = "04fd2303d5f0ece2cf482af19d06731d745db9690501d7b0a2a4b7fe23a7726f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_glaciated_areas.geojson"
+
+[ne_10m_graticules_1]
+git-tree-sha1 = "862e435d2938889f4d976c9d1e5279c0a7371621"
+lazy = true
+
+    [[ne_10m_graticules_1.download]]
+    sha256 = "da93ffcd04a151d22ecb482cc6514b1f60cf210d882a1dd9d3d13f8a1c6a6c34"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_1.geojson"
+
+[ne_10m_graticules_10]
+git-tree-sha1 = "e7284bc1f7c5f7ebe320a0e6f9f2f1dd1837f8ed"
+lazy = true
+
+    [[ne_10m_graticules_10.download]]
+    sha256 = "65ae223c9082788521714114e0d572a6cfcbbc28102bfdfd498760be9c600866"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_10.geojson"
+
+[ne_10m_graticules_15]
+git-tree-sha1 = "010d0fcf786994ee99d2024c10fe62c47441f92f"
+lazy = true
+
+    [[ne_10m_graticules_15.download]]
+    sha256 = "ec8fdd0eb4e4d85139caab938dbecdc239cb12b86652e256cc55994c2998c392"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_15.geojson"
+
+[ne_10m_graticules_20]
+git-tree-sha1 = "a695720731272ef5a2edfd8365be967ea65af596"
+lazy = true
+
+    [[ne_10m_graticules_20.download]]
+    sha256 = "ab7b3e68ecdeeb45531a08e1ff0ef204ae9aace6487c37b4be6aa4ed1a1bec7a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_20.geojson"
+
+[ne_10m_graticules_30]
+git-tree-sha1 = "aace9f6855d919e0af9ee6e1aadb6193e5b513d4"
+lazy = true
+
+    [[ne_10m_graticules_30.download]]
+    sha256 = "b74cce94814a2a5380273236473f5a864e7df96e3aa6c2589f6a94c9ba6bcad5"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_30.geojson"
+
+[ne_10m_graticules_5]
+git-tree-sha1 = "bb12ffbc09e825978e3df3e33fcfbec4b4fcb2b5"
+lazy = true
+
+    [[ne_10m_graticules_5.download]]
+    sha256 = "b094fe17c1bacf158e40403a6b324d5c19e151b4f687f6c419fa3ab762bc7499"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_graticules_5.geojson"
+
+[ne_10m_lakes]
+git-tree-sha1 = "3511bb535d506b97b5faa40468eaa5de06b5230b"
+lazy = true
+
+    [[ne_10m_lakes.download]]
+    sha256 = "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson"
+
+[ne_10m_lakes_australia]
+git-tree-sha1 = "2e1a32812e107165c25880c3f765e33a0abfbae4"
+lazy = true
+
+    [[ne_10m_lakes_australia.download]]
+    sha256 = "29d5f4b1f3f9f38c7247e16d0a4b77f2bcf6d01c9410c39811b7a95d9b324c0e"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_australia.geojson"
+
+[ne_10m_lakes_europe]
+git-tree-sha1 = "4f6086ddfa668a7a37ce8e4257b8750f994d3a16"
+lazy = true
+
+    [[ne_10m_lakes_europe.download]]
+    sha256 = "b4dd9e7a5edd0d07b54768b5404d1ebe77f80b9d579c85fff65f90cf50369769"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_europe.geojson"
+
+[ne_10m_lakes_historic]
+git-tree-sha1 = "f8d81f498627a20fb285b880b3fdf00a71d072f1"
+lazy = true
+
+    [[ne_10m_lakes_historic.download]]
+    sha256 = "43913ce0f5c18fe4d551d628b836af0da59ba193631767b5012a7f97b6a5b615"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_historic.geojson"
+
+[ne_10m_lakes_north_america]
+git-tree-sha1 = "f0478593a3ea8a6e2b0328791f744cb44f4c9b13"
+lazy = true
+
+    [[ne_10m_lakes_north_america.download]]
+    sha256 = "76f49d4b698f3529e690136a989713bcd3c028ade150346f4b358de9815cfc43"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_north_america.geojson"
+
+[ne_10m_lakes_pluvial]
+git-tree-sha1 = "928961850e67566de1243e74bf44b01e8fab2bf8"
+lazy = true
+
+    [[ne_10m_lakes_pluvial.download]]
+    sha256 = "2e8c63920b9fa84595528615479882e73fc17cf8224303dae2df98bcfcf7a1dd"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes_pluvial.geojson"
+
+[ne_10m_land]
+git-tree-sha1 = "6431525ecf107f5a1054139ad2de1b6a1fba7c8b"
+lazy = true
+
+    [[ne_10m_land.download]]
+    sha256 = "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson"
+
+[ne_10m_land_ocean_label_points]
+git-tree-sha1 = "11ed10d973cbcd2cc686363520a8d3787cc1f930"
+lazy = true
+
+    [[ne_10m_land_ocean_label_points.download]]
+    sha256 = "b686c15b978d8c39c40da827fa7ec288c3bd795e83673e7b3850f3c1b3eab949"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land_ocean_label_points.geojson"
+
+[ne_10m_land_ocean_seams]
+git-tree-sha1 = "e9a4fedad52a15a6d91898fc162d561c84f3e749"
+lazy = true
+
+    [[ne_10m_land_ocean_seams.download]]
+    sha256 = "54f377eb5263a81371cb0ba2528df740bcc56f2d95fc3aacb222fa705a2f2dde"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land_ocean_seams.geojson"
+
+[ne_10m_land_scale_rank]
+git-tree-sha1 = "476e8b664d5f99746b9592e27c61ab45134c1c1e"
+lazy = true
+
+    [[ne_10m_land_scale_rank.download]]
+    sha256 = "7eb71e7cb49d1b4e176a293494d171784f6131a45c48377c1f0b51049310ee95"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land_scale_rank.geojson"
+
+[ne_10m_minor_islands]
+git-tree-sha1 = "5ce3b6dcc241f768984942a87f18d8c97e6f13fa"
+lazy = true
+
+    [[ne_10m_minor_islands.download]]
+    sha256 = "8c933ca7a4760256bdc46408355706e39764b0fa01c160c28888b90b4faec29f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_minor_islands.geojson"
+
+[ne_10m_minor_islands_coastline]
+git-tree-sha1 = "69df57180b508acceda945ba2aac4815b358184f"
+lazy = true
+
+    [[ne_10m_minor_islands_coastline.download]]
+    sha256 = "d51fadaffc954e9e85671b0a2ecaba78b883dda1714640a173c151932fd1f2fb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_minor_islands_coastline.geojson"
+
+[ne_10m_minor_islands_label_points]
+git-tree-sha1 = "c59a94a963264679ca3b07f7e80c5ea8d3ef4c1a"
+lazy = true
+
+    [[ne_10m_minor_islands_label_points.download]]
+    sha256 = "203cf8d01e7de0c74a34fcc3003fe0e6b5486f535a4ee386e88fe90f5e2e6e3f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_minor_islands_label_points.geojson"
+
+[ne_10m_ocean]
+git-tree-sha1 = "6f75cd6965bc5fdc02245dfdd8c69fc1a82891f5"
+lazy = true
+
+    [[ne_10m_ocean.download]]
+    sha256 = "f9696a1337c746a0f6c8c13bc60d0f230d2ef8d105198d5657726c8f8e763fc2"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_ocean.geojson"
+
+[ne_10m_ocean_scale_rank]
+git-tree-sha1 = "c336896f3b1fcc5ff68b1c805e8bf8ea062b9f9c"
+lazy = true
+
+    [[ne_10m_ocean_scale_rank.download]]
+    sha256 = "d9dea58388173c8e745d2cb4e5b15a4d07ccb0e1b91c4e295472e22179c05969"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_ocean_scale_rank.geojson"
+
+[ne_10m_parks_and_protected_lands_area]
+git-tree-sha1 = "79dee51c58bad4749c27aa409d0211c2c391ca33"
+lazy = true
+
+    [[ne_10m_parks_and_protected_lands_area.download]]
+    sha256 = "78163a10b3a7f5698e24e4421b7da1955ed7d1dafa986f053473c0b5ec8fe055"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_parks_and_protected_lands_area.geojson"
+
+[ne_10m_parks_and_protected_lands_line]
+git-tree-sha1 = "daea35cde47a22918280f82cd4e6542e8b0b9fcb"
+lazy = true
+
+    [[ne_10m_parks_and_protected_lands_line.download]]
+    sha256 = "ec456c0ce53e6166814e5fc4d05cea7a46e0755d21ae5f91db194056cd07639d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_parks_and_protected_lands_line.geojson"
+
+[ne_10m_parks_and_protected_lands_point]
+git-tree-sha1 = "6124466807ebebf1a40138c69699e78dd5f613bb"
+lazy = true
+
+    [[ne_10m_parks_and_protected_lands_point.download]]
+    sha256 = "4630bb521b594c9fcfb2c0d710a92f642f39b671fc4fc8abbd67ae5114169790"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_parks_and_protected_lands_point.geojson"
+
+[ne_10m_parks_and_protected_lands_scale_rank]
+git-tree-sha1 = "96a5b27ef5e5bf00fed68da7ed3c6b2c1ee6d83c"
+lazy = true
+
+    [[ne_10m_parks_and_protected_lands_scale_rank.download]]
+    sha256 = "c148a90a34cd960de3d4b7c776143a6e6709abb3ea6c5ebc03dc0e67c04664b2"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_parks_and_protected_lands_scale_rank.geojson"
+
+[ne_10m_playas]
+git-tree-sha1 = "7b911dd9088af39a4064be800b71ecaf1a2ba879"
+lazy = true
+
+    [[ne_10m_playas.download]]
+    sha256 = "3ece2a37f3e87d46869a45b05205bb78e273c83e191cee9ab60936368f4b9cc6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_playas.geojson"
+
+[ne_10m_populated_places]
+git-tree-sha1 = "0a044559c9244b0741818d418a7fd71e254f2724"
+lazy = true
+
+    [[ne_10m_populated_places.download]]
+    sha256 = "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places.geojson"
+
+[ne_10m_populated_places_simple]
+git-tree-sha1 = "43c7ec4f4b7194779e7b2ea4ed1d13e84a20be1e"
+lazy = true
+
+    [[ne_10m_populated_places_simple.download]]
+    sha256 = "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson"
+
+[ne_10m_ports]
+git-tree-sha1 = "57a7a83fe85aa78f364370da6feb2f35fcf8988d"
+lazy = true
+
+    [[ne_10m_ports.download]]
+    sha256 = "c5a5028f5187a5e1b9fe7f0fab99804a8be7482099a2365d404fb7e9dd6b5457"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_ports.geojson"
+
+[ne_10m_railroads]
+git-tree-sha1 = "5428398daf9c6d48a35c4e66b37b4b5689583c43"
+lazy = true
+
+    [[ne_10m_railroads.download]]
+    sha256 = "a0962d7866060ae3e24df255f6d662389ac9ba7e0df40cf329c2281190b861e6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_railroads.geojson"
+
+[ne_10m_railroads_north_america]
+git-tree-sha1 = "5ed8cd2f79061701d473deaf63af52ef0dd93e9f"
+lazy = true
+
+    [[ne_10m_railroads_north_america.download]]
+    sha256 = "715e11a0ed89a65a09ff979449bcf8dd7523f62869561b0fd1a43c9061417910"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_railroads_north_america.geojson"
+
+[ne_10m_reefs]
+git-tree-sha1 = "eb261ef43d15b1b11bfce5e1505233005b746f96"
+lazy = true
+
+    [[ne_10m_reefs.download]]
+    sha256 = "4dcfb7cb57e7c04108df66ca0ac1bb4125b2b40b6bb45d7d2aa589bd4e46dc57"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_reefs.geojson"
+
+[ne_10m_rivers_australia]
+git-tree-sha1 = "419bd0ec72a5a3079083791578bf39413334f2b7"
+lazy = true
+
+    [[ne_10m_rivers_australia.download]]
+    sha256 = "2ea77b867b1ff0440e996f5fab369af6a74fc2da6ebf4006654a96430c171ea7"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_australia.geojson"
+
+[ne_10m_rivers_europe]
+git-tree-sha1 = "f1aff9e09b2501359362795fee7e30bdd749b35a"
+lazy = true
+
+    [[ne_10m_rivers_europe.download]]
+    sha256 = "90712202ac46985812e90840df9acd5101599a9c649868d5bc55ee96c2fedd4c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_europe.geojson"
+
+[ne_10m_rivers_lake_centerlines]
+git-tree-sha1 = "cd143ddf2069ab3b76868945f64e97958f4d7665"
+lazy = true
+
+    [[ne_10m_rivers_lake_centerlines.download]]
+    sha256 = "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"
+
+[ne_10m_rivers_lake_centerlines_scale_rank]
+git-tree-sha1 = "8c66467cf74e47bf9d192c141a8a814ba360adfa"
+lazy = true
+
+    [[ne_10m_rivers_lake_centerlines_scale_rank.download]]
+    sha256 = "65dca1bd1729a347dda0837f41b5d152252e33abd2d7ff3370a0539c33bdf89b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines_scale_rank.geojson"
+
+[ne_10m_rivers_north_america]
+git-tree-sha1 = "a57c8de295839c68fa1ad36fb38b1fc29c8a8f29"
+lazy = true
+
+    [[ne_10m_rivers_north_america.download]]
+    sha256 = "dcd2348655a5f3d0ea7be35024073ab24f09115d2e4efb77e7bc0a33567db682"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_north_america.geojson"
+
+[ne_10m_roads]
+git-tree-sha1 = "c827de7bdd195b1f4afc3c1d0dc9f48091687e5a"
+lazy = true
+
+    [[ne_10m_roads.download]]
+    sha256 = "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_roads.geojson"
+
+[ne_10m_time_zones]
+git-tree-sha1 = "f62a6b42cf720098b78d8c838e394e3704f0c204"
+lazy = true
+
+    [[ne_10m_time_zones.download]]
+    sha256 = "aa52ab97e5f906693f31fe2e625c9d6be78a4e74fcd4142a7261235b355cacfe"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_time_zones.geojson"
+
+[ne_10m_urban_areas]
+git-tree-sha1 = "9c2fcab4f4096adf6ba557f09b1fa030c1e097c9"
+lazy = true
+
+    [[ne_10m_urban_areas.download]]
+    sha256 = "5136ffd816a9b28c0f295e6797b4c03eaa421be80d78b90f542db4a932dd4497"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_urban_areas.geojson"
+
+[ne_10m_urban_areas_landscan]
+git-tree-sha1 = "cec0b3ffcec049db0e6efdad9723ae8b324eb171"
+lazy = true
+
+    [[ne_10m_urban_areas_landscan.download]]
+    sha256 = "ea68c0e6a3817686c6dedb430234782eaa0055303b2ae75a0743ea9278840911"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_urban_areas_landscan.geojson"
+
+[ne_10m_wgs84_bounding_box]
+git-tree-sha1 = "b05df3208f281a80e95b451eb556e51c545a6a6b"
+lazy = true
+
+    [[ne_10m_wgs84_bounding_box.download]]
+    sha256 = "b21822b7069f760a1c3d8f880d95b5abb0494fb4f241552672c2a6c7bfebd5e9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_wgs84_bounding_box.geojson"
+
+[ne_110m_admin_0_boundary_lines_land]
+git-tree-sha1 = "439fa6dfe5a37e11d3cdb310f1543baf21866251"
+lazy = true
+
+    [[ne_110m_admin_0_boundary_lines_land.download]]
+    sha256 = "d42479fd79552cca4eec7f85fcdca717a790d29ff06be7676f1af0568c6d3f7c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_boundary_lines_land.geojson"
+
+[ne_110m_admin_0_countries]
+git-tree-sha1 = "b0c5600f06a588648435c7f9360384de63d9e5be"
+lazy = true
+
+    [[ne_110m_admin_0_countries.download]]
+    sha256 = "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson"
+
+[ne_110m_admin_0_countries_lakes]
+git-tree-sha1 = "8c42511eca2ed860bd73a2b0c5720c4f3fc57580"
+lazy = true
+
+    [[ne_110m_admin_0_countries_lakes.download]]
+    sha256 = "5b00e58dbf91618432ab13844377b40e2132feedf9a7f05fe7aeaa9fe33e8e16"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries_lakes.geojson"
+
+[ne_110m_admin_0_map_units]
+git-tree-sha1 = "22bb4e64d1fc91f80e192aed6d9bb8586d470b80"
+lazy = true
+
+    [[ne_110m_admin_0_map_units.download]]
+    sha256 = "718ac51d68ed2bf5de4f563fff2e2e045db706c1d3222805f3e317140a64213b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_map_units.geojson"
+
+[ne_110m_admin_0_pacific_groupings]
+git-tree-sha1 = "3f951808d9bc9e06a7b882b3868c6b066ab78e44"
+lazy = true
+
+    [[ne_110m_admin_0_pacific_groupings.download]]
+    sha256 = "6f2cda559a1def6ed121655c77bfd73f458ed40ef1fddbb03a9f5212ddf92d25"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_pacific_groupings.geojson"
+
+[ne_110m_admin_0_scale_rank]
+git-tree-sha1 = "1afa5fcbf6cd8a0adc857226a4d76ff669774b30"
+lazy = true
+
+    [[ne_110m_admin_0_scale_rank.download]]
+    sha256 = "846d1d38fa840a5f461d69e99e7691da7cfba562d0af81a1e2945a0e70adf036"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_scale_rank.geojson"
+
+[ne_110m_admin_0_sovereignty]
+git-tree-sha1 = "34f42987020ab337edb17a5a832cb1ae1e61c406"
+lazy = true
+
+    [[ne_110m_admin_0_sovereignty.download]]
+    sha256 = "edd5851a885af16695125fecebceaf6ac960290819e9e22313807189cb5c5555"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_sovereignty.geojson"
+
+[ne_110m_admin_0_tiny_countries]
+git-tree-sha1 = "6f1afa140acefd385a916d906aa682198f2b2189"
+lazy = true
+
+    [[ne_110m_admin_0_tiny_countries.download]]
+    sha256 = "753c4b167361f0f1223091d52f98aaddfb9101529eef263cc094057e43228c40"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_tiny_countries.geojson"
+
+[ne_110m_admin_1_states_provinces]
+git-tree-sha1 = "2818f316ad983eae2d717a971e4428cd55046f23"
+lazy = true
+
+    [[ne_110m_admin_1_states_provinces.download]]
+    sha256 = "0067dec6a2c4f9c7a644bf7a9a46163d8d881595953326d0c67d89934190aefe"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_1_states_provinces.geojson"
+
+[ne_110m_admin_1_states_provinces_lakes]
+git-tree-sha1 = "03c6543bb0c60f8f332990aa0185ad7afd8215a0"
+lazy = true
+
+    [[ne_110m_admin_1_states_provinces_lakes.download]]
+    sha256 = "8e048ee20587e124e74de5c6bfeea8132ab2313a8f7f4f97e043617f8f37f7f6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_1_states_provinces_lakes.geojson"
+
+[ne_110m_admin_1_states_provinces_lines]
+git-tree-sha1 = "ddf3a51768b2a0733c054e165c7f94dd5874e581"
+lazy = true
+
+    [[ne_110m_admin_1_states_provinces_lines.download]]
+    sha256 = "f204e94d5c4d16c6ce4b59ecb50e264bd95c22b9138d8a994c010c222e186aad"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_1_states_provinces_lines.geojson"
+
+[ne_110m_admin_1_states_provinces_scale_rank]
+git-tree-sha1 = "06bd5b47375abdb337d4b0765b0d3596cffe1cd2"
+lazy = true
+
+    [[ne_110m_admin_1_states_provinces_scale_rank.download]]
+    sha256 = "5ff3fc6a8bfc6233b4d6082e4eaf90d580feb01090096d5e0e571088b67bd7ac"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_1_states_provinces_scale_rank.geojson"
+
+[ne_110m_coastline]
+git-tree-sha1 = "d406fc04a98365c298b3558c2b93693ea11c7c7e"
+lazy = true
+
+    [[ne_110m_coastline.download]]
+    sha256 = "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_coastline.geojson"
+
+[ne_110m_geographic_lines]
+git-tree-sha1 = "a28a99009686396481f7fa2286d0bbacb4713471"
+lazy = true
+
+    [[ne_110m_geographic_lines.download]]
+    sha256 = "c09c7883df618dfefb56fb37c349fedb38e7f926d5eb85d11648f33c8bdf5fbf"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_geographic_lines.geojson"
+
+[ne_110m_geography_marine_polys]
+git-tree-sha1 = "8492f8cc2c01a349cfcd3d15cb7deb987fe1e3ca"
+lazy = true
+
+    [[ne_110m_geography_marine_polys.download]]
+    sha256 = "b9c3f7f557d0ff5217906adc82b66ecdac14aa7438df7e518cf6675d037bceb8"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_geography_marine_polys.geojson"
+
+[ne_110m_geography_regions_elevation_points]
+git-tree-sha1 = "5cb0dadfb3a0778a574fe7ebf3f4dce37ffdd0e0"
+lazy = true
+
+    [[ne_110m_geography_regions_elevation_points.download]]
+    sha256 = "c34ef891d9ce2b7e699a120ab8ab972fd2d66774b4a9d3e7893a64550d831e64"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_geography_regions_elevation_points.geojson"
+
+[ne_110m_geography_regions_points]
+git-tree-sha1 = "48dbe80f5da63462ad4ad4cb9ff25011e68ded4c"
+lazy = true
+
+    [[ne_110m_geography_regions_points.download]]
+    sha256 = "f2431055ebedce3903d76e87e93203085e6da9edecf8daaa372fcc2919bbcaba"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_geography_regions_points.geojson"
+
+[ne_110m_geography_regions_polys]
+git-tree-sha1 = "7a34ea0258cf7f5fa41cd576d7554be4e3f35cb0"
+lazy = true
+
+    [[ne_110m_geography_regions_polys.download]]
+    sha256 = "4182af773bcc891f8ddbf4b34ac02e87f17b35456269695e07258cf0b4877ec9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_geography_regions_polys.geojson"
+
+[ne_110m_glaciated_areas]
+git-tree-sha1 = "34f5c49dec96b6ecc4aed2a63ca812f050b5b21c"
+lazy = true
+
+    [[ne_110m_glaciated_areas.download]]
+    sha256 = "e61e3f45e22f087f861ac2fda6258fc15c849a216d74c27ccf0164eeafbd950a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_glaciated_areas.geojson"
+
+[ne_110m_graticules_1]
+git-tree-sha1 = "831ae0eafbd759ee0beebd72f6c3ed50d58c8f44"
+lazy = true
+
+    [[ne_110m_graticules_1.download]]
+    sha256 = "bf8fac0364d2a16048896197498dfde4b172dffa1e5c0b2ad4ded73780aedbcf"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_1.geojson"
+
+[ne_110m_graticules_10]
+git-tree-sha1 = "6dd519acf784727ffdce22ffb1b09bfc98fae060"
+lazy = true
+
+    [[ne_110m_graticules_10.download]]
+    sha256 = "937e3da3d0baa3465f5466ddaec6e85cc52a1c1af4ebabb7b8dddb33a765a4ef"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_10.geojson"
+
+[ne_110m_graticules_15]
+git-tree-sha1 = "33c21908d9158f5a757f62fb38596860b3462b1d"
+lazy = true
+
+    [[ne_110m_graticules_15.download]]
+    sha256 = "dfa8d56f1fbfd4ef1980fddc96cc3138d92906038536a53019e189417fded648"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_15.geojson"
+
+[ne_110m_graticules_20]
+git-tree-sha1 = "e816bf42b81ff1f52b2c3b5ec366e9b85daae35a"
+lazy = true
+
+    [[ne_110m_graticules_20.download]]
+    sha256 = "002adba13232ffe8ec6158ef5e6b77e53714a01c98a952ccbd5b49fa102e1da9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_20.geojson"
+
+[ne_110m_graticules_30]
+git-tree-sha1 = "0d8d6e5ff4a6cb820918d9ae7b9ad91aa8fd02e8"
+lazy = true
+
+    [[ne_110m_graticules_30.download]]
+    sha256 = "33c562b047ce6070c58e5533bd01fc3734129465a3a6bf6058ebc6bf1ec2dc0d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_30.geojson"
+
+[ne_110m_graticules_5]
+git-tree-sha1 = "b118d3d20dd657884a020ff052052f88228b73c0"
+lazy = true
+
+    [[ne_110m_graticules_5.download]]
+    sha256 = "69e4dca8d8e78992e63d9c3b37749807ff25b16e257c78f5cfc625741f10c498"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_graticules_5.geojson"
+
+[ne_110m_lakes]
+git-tree-sha1 = "911689959dade4473696a3c8019e733a9598ace8"
+lazy = true
+
+    [[ne_110m_lakes.download]]
+    sha256 = "eb02ecc86c82004fccbf979058bfabbbd6c2d07968c7844d38eb1c9152d2ffc9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_lakes.geojson"
+
+[ne_110m_land]
+git-tree-sha1 = "a81be566affdd5fb3a15321690b759ead586f212"
+lazy = true
+
+    [[ne_110m_land.download]]
+    sha256 = "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson"
+
+[ne_110m_ocean]
+git-tree-sha1 = "e62df359339c65808012c29e20e6239f79869dcc"
+lazy = true
+
+    [[ne_110m_ocean.download]]
+    sha256 = "5cf3eb6fb202ff7f1cc0b27b49235a05703687f6cd81e45115d4250aa15b8a76"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_ocean.geojson"
+
+[ne_110m_populated_places]
+git-tree-sha1 = "e55436c1e47ecfc59c0127a21ee1d886c23e5f5f"
+lazy = true
+
+    [[ne_110m_populated_places.download]]
+    sha256 = "a86028b083182b68c7620fc6e1a8a47ee547cb9cd2fb62ccbb78bea786440899"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_populated_places.geojson"
+
+[ne_110m_populated_places_simple]
+git-tree-sha1 = "dba966eeb670c31709a54800c6332089f26bcf0c"
+lazy = true
+
+    [[ne_110m_populated_places_simple.download]]
+    sha256 = "0dbd25c9ad8bd797ddf164b067f563be5c16be2c002254eb594862377963f9dc"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_populated_places_simple.geojson"
+
+[ne_110m_rivers_lake_centerlines]
+git-tree-sha1 = "244c4eb0058073e39d858024ddec5fb342d0d9d2"
+lazy = true
+
+    [[ne_110m_rivers_lake_centerlines.download]]
+    sha256 = "55aa4497405afc07cdc931b7fbe062c4d6693ba2a550c0d24899953f5d507c8d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_rivers_lake_centerlines.geojson"
+
+[ne_110m_wgs84_bounding_box]
+git-tree-sha1 = "9906e866d83341bed0252769974e41cb8a93a2c5"
+lazy = true
+
+    [[ne_110m_wgs84_bounding_box.download]]
+    sha256 = "bd3e1f1aa69c2be1f8173baf9c499b3b96e2a01926327755031db0bce641a36d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_wgs84_bounding_box.geojson"
+
+[ne_50m_admin_0_boundary_lines_disputed_areas]
+git-tree-sha1 = "b1508f42f75860fcfe131d28ef2253469355616c"
+lazy = true
+
+    [[ne_50m_admin_0_boundary_lines_disputed_areas.download]]
+    sha256 = "5bf5312a293cf038a367c2f150d34f295a3ccd2704affca26a1bbb1bb95bb64e"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_boundary_lines_disputed_areas.geojson"
+
+[ne_50m_admin_0_boundary_lines_land]
+git-tree-sha1 = "0faa6babcac676189fcb13400bf50c1b8c54ec9f"
+lazy = true
+
+    [[ne_50m_admin_0_boundary_lines_land.download]]
+    sha256 = "2faac4f6b34386f3d21b6e018cf151f241f00e5c936d44dd17d7d9bfb147fa48"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_boundary_lines_land.geojson"
+
+[ne_50m_admin_0_boundary_lines_maritime_indicator]
+git-tree-sha1 = "c6310c53261fb7d30cd7182f10bbb657783da3da"
+lazy = true
+
+    [[ne_50m_admin_0_boundary_lines_maritime_indicator.download]]
+    sha256 = "4720d2c8dc0ed170051bca681c9ba93babedc81c4a06e54fad369db7e0063413"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_boundary_lines_maritime_indicator.geojson"
+
+[ne_50m_admin_0_boundary_lines_maritime_indicator_chn]
+git-tree-sha1 = "8b8b44243a94163a849d3fb2d90f88b398357fd6"
+lazy = true
+
+    [[ne_50m_admin_0_boundary_lines_maritime_indicator_chn.download]]
+    sha256 = "60959c26bb83a751f54dcbc2c0465094a5d1f0be302e27898327088bcb25db21"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_boundary_lines_maritime_indicator_chn.geojson"
+
+[ne_50m_admin_0_boundary_map_units]
+git-tree-sha1 = "68274199f04d84f8b0d33996cf2d881a59a36829"
+lazy = true
+
+    [[ne_50m_admin_0_boundary_map_units.download]]
+    sha256 = "74bf5fe566b2d02216dac1298d12975a7b793638e6d0222e2174565a60603234"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_boundary_map_units.geojson"
+
+[ne_50m_admin_0_breakaway_disputed_areas]
+git-tree-sha1 = "8a224f65bfebb6dd99688a1aebe8588d1fe91010"
+lazy = true
+
+    [[ne_50m_admin_0_breakaway_disputed_areas.download]]
+    sha256 = "e91f0f9518b24355ceec6668f4df874d6f39db7d0bc9ec22d9b14429bfb6be01"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_breakaway_disputed_areas.geojson"
+
+[ne_50m_admin_0_countries]
+git-tree-sha1 = "3d8d237b735d0ecfd0d3c3aa89569fd941750495"
+lazy = true
+
+    [[ne_50m_admin_0_countries.download]]
+    sha256 = "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
+
+[ne_50m_admin_0_countries_lakes]
+git-tree-sha1 = "b5f132368a1bcd4e4849075737eaa3d7026cf998"
+lazy = true
+
+    [[ne_50m_admin_0_countries_lakes.download]]
+    sha256 = "b4c14911c7eec4a5d920b90294de6c16fdb078425b2caa6974a38a0b261f9667"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries_lakes.geojson"
+
+[ne_50m_admin_0_map_subunits]
+git-tree-sha1 = "93bc6f775ae821b74891fc95010c1cf0bd8abc73"
+lazy = true
+
+    [[ne_50m_admin_0_map_subunits.download]]
+    sha256 = "b1df8433477614c89e6b724990a7ab3733ec647559863321b6255c3fa3fce3ec"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_map_subunits.geojson"
+
+[ne_50m_admin_0_map_units]
+git-tree-sha1 = "f3c2079e6006e1bf1209af3ff75b25959cd924d7"
+lazy = true
+
+    [[ne_50m_admin_0_map_units.download]]
+    sha256 = "b8d421aca6e9e08e8cdf09cc26af111cc3e0deba4fe915611d58ade71e8a4db0"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_map_units.geojson"
+
+[ne_50m_admin_0_pacific_groupings]
+git-tree-sha1 = "3e11615bf302dd87b8d22a7ebec1fe8a77d0e361"
+lazy = true
+
+    [[ne_50m_admin_0_pacific_groupings.download]]
+    sha256 = "6ab5967d8e465843d72f86970373ded72f252dcc8b3810b7d91090b211f8c554"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_pacific_groupings.geojson"
+
+[ne_50m_admin_0_scale_rank]
+git-tree-sha1 = "3e352568b79121c314194afd66db32a1bda85aba"
+lazy = true
+
+    [[ne_50m_admin_0_scale_rank.download]]
+    sha256 = "39108bebae128043453d6b8e925b2dcb1624970bca006b6bfc93a2c34e195bdb"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_scale_rank.geojson"
+
+[ne_50m_admin_0_sovereignty]
+git-tree-sha1 = "13f3eb872d19cd0f3df35d4ede0e352fa6a0d26e"
+lazy = true
+
+    [[ne_50m_admin_0_sovereignty.download]]
+    sha256 = "cfc0999c72b199151b7508c4ca27627d898539fa2ba27f16cc494ad0270fff90"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_sovereignty.geojson"
+
+[ne_50m_admin_0_tiny_countries]
+git-tree-sha1 = "c6dc7dc6d57b4d4ef3e019a5a6658011bfd8d155"
+lazy = true
+
+    [[ne_50m_admin_0_tiny_countries.download]]
+    sha256 = "e44d2a67feed7fd0c74b4b2c0342ade1983c038e43e32acc461c82bfa6538009"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_tiny_countries.geojson"
+
+[ne_50m_admin_0_tiny_countries_scale_rank]
+git-tree-sha1 = "74613ab7ff9f0af090c0efef950ccb3b8180fbf2"
+lazy = true
+
+    [[ne_50m_admin_0_tiny_countries_scale_rank.download]]
+    sha256 = "7372768e1149b5d6399f95cc068773f9d7f7c3c569075f41fce2cad085999a1c"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_tiny_countries_scale_rank.geojson"
+
+[ne_50m_admin_1_states_provinces]
+git-tree-sha1 = "c601e15230c3858ba7b25dd33c5fe83d05139993"
+lazy = true
+
+    [[ne_50m_admin_1_states_provinces.download]]
+    sha256 = "69a0e06e640b2d505858ae1cb63034e4677f3000b35a98e16312932b98c426b9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces.geojson"
+
+[ne_50m_admin_1_states_provinces_lakes]
+git-tree-sha1 = "8013716605cc63e976c6ad72b5d22a62664cb93d"
+lazy = true
+
+    [[ne_50m_admin_1_states_provinces_lakes.download]]
+    sha256 = "b92c3f709b691240f6320e5cd7fade78cedfa3b91ecff14cecd3de0616c764b9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces_lakes.geojson"
+
+[ne_50m_admin_1_states_provinces_lines]
+git-tree-sha1 = "68c800640c9077e99b6cb2c1e1b16e6f39269c62"
+lazy = true
+
+    [[ne_50m_admin_1_states_provinces_lines.download]]
+    sha256 = "72cca93c850d412628a5da4bc5ebfe21ba4d376eb34611bde6b623ee73f0fdcf"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces_lines.geojson"
+
+[ne_50m_admin_1_states_provinces_scale_rank]
+git-tree-sha1 = "b4eb654ca30f5b2443b002483d141347fece0a22"
+lazy = true
+
+    [[ne_50m_admin_1_states_provinces_scale_rank.download]]
+    sha256 = "e4ab1454e07870b29de6c0c73b5800e6469e4047bcfa71d8584686ff0b0120a6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces_scale_rank.geojson"
+
+[ne_50m_antarctic_ice_shelves_lines]
+git-tree-sha1 = "f356a2dd7b299d4d60f087e72657afb98b6d196a"
+lazy = true
+
+    [[ne_50m_antarctic_ice_shelves_lines.download]]
+    sha256 = "549eabb5a2e2913f1dfde976871c0cf2bbc62eea0b24a2a293fa3faa185f830d"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_antarctic_ice_shelves_lines.geojson"
+
+[ne_50m_antarctic_ice_shelves_polys]
+git-tree-sha1 = "00139f2087f99f5621c09d1d10ca8639ffcc1f2b"
+lazy = true
+
+    [[ne_50m_antarctic_ice_shelves_polys.download]]
+    sha256 = "fedf866d20e20e37d037fa19968b6d3022fbe5323fd8728527b0f0ddb547e790"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_antarctic_ice_shelves_polys.geojson"
+
+[ne_50m_coastline]
+git-tree-sha1 = "58240d441c554a82004fa9c21eaff14fa52b45fb"
+
+    [[ne_50m_coastline.download]]
+    sha256 = "271f1c4c1908312bac6b29d158ea1356544beafc129f260005300913aa5ea283"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_coastline.geojson"
+
+[ne_50m_geographic_lines]
+git-tree-sha1 = "908adf028a33853af77030b936875e999f68dc27"
+lazy = true
+
+    [[ne_50m_geographic_lines.download]]
+    sha256 = "c74270a34cdc465e8c865642bf03ede9ef24ff4eb204b08ab7c66d735c20f559"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geographic_lines.geojson"
+
+[ne_50m_geography_marine_polys]
+git-tree-sha1 = "685dc0bf195e4a7c819a689e0672ea4469aab82b"
+lazy = true
+
+    [[ne_50m_geography_marine_polys.download]]
+    sha256 = "6fe58083e0cc5c7fad9e396970e28a8580bbd8770cfa4d1d7b5a34423e912f97"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_marine_polys.geojson"
+
+[ne_50m_geography_regions_elevation_points]
+git-tree-sha1 = "9d71d35addfc650dda0b0cf5b08fe2e87912cadd"
+lazy = true
+
+    [[ne_50m_geography_regions_elevation_points.download]]
+    sha256 = "ebe76e874f1f873875cdacec5955f2280fdcd8be9faddf71f035dac8ccd16b60"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_regions_elevation_points.geojson"
+
+[ne_50m_geography_regions_points]
+git-tree-sha1 = "47240a4870015acf20d83a4399b1c9465bc625ed"
+lazy = true
+
+    [[ne_50m_geography_regions_points.download]]
+    sha256 = "203f19b6b690d4d1f6f2fd9a71ff0c93c2e31bc34c21f93a12ccf336f5b5ef4a"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_regions_points.geojson"
+
+[ne_50m_geography_regions_polys]
+git-tree-sha1 = "ad5aa7f8ee56881c0f70b55a2a37389ba7c07095"
+lazy = true
+
+    [[ne_50m_geography_regions_polys.download]]
+    sha256 = "33396643d8f0eed408e80bf5ca43dcdb7993f790fdc4eadae311660f8b91fe76"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_regions_polys.geojson"
+
+[ne_50m_glaciated_areas]
+git-tree-sha1 = "26b5bb24d24aead49dabed3317f88b7a4a246123"
+lazy = true
+
+    [[ne_50m_glaciated_areas.download]]
+    sha256 = "c7a097b4b8e0d360dc82c90ab20c34b78aa5939a5ec8ab157c18945938e9c0a7"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_glaciated_areas.geojson"
+
+[ne_50m_graticules_1]
+git-tree-sha1 = "13620458924747695dc9767c7b9387c74dabb5be"
+lazy = true
+
+    [[ne_50m_graticules_1.download]]
+    sha256 = "30ae95a3c9f2efe95f31e10875178afffb77acf813ba7a62bf8dfaf493fd6aa4"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_1.geojson"
+
+[ne_50m_graticules_10]
+git-tree-sha1 = "59451857fd59d45f2549d0094c7db2826fe000b2"
+lazy = true
+
+    [[ne_50m_graticules_10.download]]
+    sha256 = "e20518241887d6759d4de048308948a808e7af3823dcc239d7f17829fda38544"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_10.geojson"
+
+[ne_50m_graticules_15]
+git-tree-sha1 = "286f0370583a296e6ffa3b759a0008704614ea1e"
+lazy = true
+
+    [[ne_50m_graticules_15.download]]
+    sha256 = "f69b85bf219430e8227603423e0d5d955141f4d5b35049c8585267b6151f63ee"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_15.geojson"
+
+[ne_50m_graticules_20]
+git-tree-sha1 = "23f97a80135eca3799e2bd5378db4ae3adc5d1cf"
+lazy = true
+
+    [[ne_50m_graticules_20.download]]
+    sha256 = "5dc96e8d673f7f2d31518e72f19e7845e9e2e5c41e62f139c0c117f7817592e6"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_20.geojson"
+
+[ne_50m_graticules_30]
+git-tree-sha1 = "56dcd08bd72bd97cca74215ff4317c7e615018b7"
+lazy = true
+
+    [[ne_50m_graticules_30.download]]
+    sha256 = "bece1e66086bcd7b8548d42e44e94d3220e6fe3e06b2c441edc22bd5f508689b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_30.geojson"
+
+[ne_50m_graticules_5]
+git-tree-sha1 = "f089f285306a2038c9c38fdd2e5df4d9e05b17aa"
+lazy = true
+
+    [[ne_50m_graticules_5.download]]
+    sha256 = "d21c58a927366b7a9dbabd1704dc4678cb0a5df5da68c8e7fed788771eef41b9"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_graticules_5.geojson"
+
+[ne_50m_lakes]
+git-tree-sha1 = "d9245bd0a7dbccf50b3aea8d5be3c2d553b28a32"
+lazy = true
+
+    [[ne_50m_lakes.download]]
+    sha256 = "d350b75978b26fe839b797c2c529b2fb8f47fb3983c03f4964e36d5df9378a52"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_lakes.geojson"
+
+[ne_50m_lakes_historic]
+git-tree-sha1 = "2513b6aaedfbe7908c2ebe89ed353a0617619781"
+lazy = true
+
+    [[ne_50m_lakes_historic.download]]
+    sha256 = "70f9380daf648ce8798f68b6f1678c2ab901c8cb3290eb276533d69915871a35"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_lakes_historic.geojson"
+
+[ne_50m_land]
+git-tree-sha1 = "a8d03c7a48e11ba599769c3395f4129805eb1b41"
+lazy = true
+
+    [[ne_50m_land.download]]
+    sha256 = "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_land.geojson"
+
+[ne_50m_ocean]
+git-tree-sha1 = "05a04bc3975a93635f8b3a9ed337ffe7294bddcb"
+lazy = true
+
+    [[ne_50m_ocean.download]]
+    sha256 = "5b810162af4b20805838cfd766ef1a445c350cf6aafc8b589515daef30033adf"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_ocean.geojson"
+
+[ne_50m_playas]
+git-tree-sha1 = "b62dc42cef1ad12ddef2288c81fe307fafb14dd5"
+lazy = true
+
+    [[ne_50m_playas.download]]
+    sha256 = "6852f4cc6391a49f3416e49619dec28454a84218092c9db6acd6bf4741633463"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_playas.geojson"
+
+[ne_50m_populated_places]
+git-tree-sha1 = "79e59ae4a6f44037a4fc43914232bf7f4e6489cc"
+lazy = true
+
+    [[ne_50m_populated_places.download]]
+    sha256 = "da4662b7bbfeb897d02f228c5839131dce27acff5717630f91ccff4f67828ee7"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_populated_places.geojson"
+
+[ne_50m_populated_places_simple]
+git-tree-sha1 = "a9ac7b015983dfe679f2ff400d4ae22fd4ca0ff6"
+lazy = true
+
+    [[ne_50m_populated_places_simple.download]]
+    sha256 = "8e70756b39fae9bcdc1e332bfc510c024c5edd3a13203ffd20092ee37b61d978"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_populated_places_simple.geojson"
+
+[ne_50m_rivers_lake_centerlines]
+git-tree-sha1 = "cf5959e28271b066b750aea577152df22ea26d52"
+lazy = true
+
+    [[ne_50m_rivers_lake_centerlines.download]]
+    sha256 = "f286e0ce978fde999ca2d7a78c764be08542e19b63cded52b05c12d5173ccc51"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_rivers_lake_centerlines.geojson"
+
+[ne_50m_rivers_lake_centerlines_scale_rank]
+git-tree-sha1 = "5679d5356dd0265595c7e9f59b9d96a9646ca21b"
+lazy = true
+
+    [[ne_50m_rivers_lake_centerlines_scale_rank.download]]
+    sha256 = "b0b2ec37ff3057d25fc3d6324e79f5b9a076a956ef9aee6e20b2349f7ce36796"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_rivers_lake_centerlines_scale_rank.geojson"
+
+[ne_50m_urban_areas]
+git-tree-sha1 = "76b7900c38bcff1cef0b55b60ddd2516ea7c01a2"
+lazy = true
+
+    [[ne_50m_urban_areas.download]]
+    sha256 = "f134958140343a8e156d47805e4d0c362e244c194408c9d1a8e80e132fc67b48"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_urban_areas.geojson"
+
+[ne_50m_wgs84_bounding_box]
+git-tree-sha1 = "85caf8002317859e5bca8bd7d858be474ef92b14"
+lazy = true
+
+    [[ne_50m_wgs84_bounding_box.download]]
+    sha256 = "34f082a6753b7139305f41d518e4a88ad1d7860af93f270cfd3398f05be4adc0"
+    url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_wgs84_bounding_box.geojson"
