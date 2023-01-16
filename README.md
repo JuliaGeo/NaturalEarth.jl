@@ -1,5 +1,10 @@
 # NaturalEarth.jl
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://asinghvi17.github.io/NaturalEarth.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://asinghvi17.github.io/NaturalEarth.jl/dev/)
+[![Build Status](https://github.com/asinghvi17/NaturalEarth.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/asinghvi17/NaturalEarth.jl/actions/workflows/CI.yml?query=branch%3Amain)
+
+
 This package provides a Julia interface to the [Natural Earth](http://www.naturalearthdata.com/) dataset. The Natural Earth dataset is a public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales. It is ideal for small-scale thematic mapping and for creating static maps and illustrations.
 
 Currently, this package provides a single function, `naturalearth`, which fetches any `.geojson` file from [this](https://github.com/nvkelso/natural-earth-vector/tree/master/geojson) repository. The function returns a `GeoJSON.FeatureCollection` object.
