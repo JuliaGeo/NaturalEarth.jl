@@ -4,6 +4,7 @@ import GeoJSON
 using Pkg
 using Pkg.Artifacts
 
+"A list of the names of available artifacts"
 const available_artifacts = collect(keys(
     Artifacts.select_downloadable_artifacts(Artifacts.find_artifacts_toml(@__FILE__); include_lazy=true)
 ))
@@ -11,19 +12,22 @@ const available_artifacts = collect(keys(
 export naturalearth, bathymetry
 
 """
-    naturalearth(name::String)
+    naturalearth(dataset_name::String)
 
 Load a NaturalEarth dataset as a `GeoJSON.FeatureCollection` object.
 
 Valid names are found in `Artifacts.toml`. 
 We aim to support all datasets listed in https://github.com/nvkelso/natural-earth-vector/tree/master/geojson
 """
-function naturalearth(name::String)
-    pth = @artifact_str("$name/$name.geojson")
-    @assert isfile(pth) "`$name` is not a valid NaturalEarth.jl artifact"
-    GeoJSON.read(read(pth, String))
+function naturalearth(dataset_name::String)
+    file_path = @artifact_str("$dataset_name/$dataset_name.geojson")
+    @assert isfile(file_path) """
+    `$dataset_name` is not a valid NaturalEarth.jl artifact!
+    Please search https://www.naturalearthdata.com for available
+    datasets.
+    """
+    GeoJSON.read(read(file_path, String))
 end
-
 
 """
     bathymetry(contour::Int = 2000)
@@ -48,7 +52,5 @@ function bathymetry(contour::Int=2000)
     bathyfile = bathyfiles[fileind]
     return naturalearth(bathyfile)
 end
-
-
 
 end  # end module
