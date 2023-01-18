@@ -9,7 +9,7 @@ This package provides a Julia interface to the [Natural Earth](http://www.natura
 
 Currently, this package provides a single function, `naturalearth`, which fetches any `.geojson` file from [this](https://github.com/nvkelso/natural-earth-vector/tree/master/geojson) repository. The function returns a `GeoJSON.FeatureCollection` object.
 
-The data is downloaded on demand and cached using the Julia Artifacts system. This means that the first time you fetch a dataset, it will take a while to download. Subsequent calls will be much faster.
+The data is downloaded on demand and cached using Julia's `Artifacts` system. This means that the first time you fetch a dataset, it will take a while to download, and you will need an internet connection. Subsequent calls will be much faster, even in a new session.
 
 ## Acknowledgements
 

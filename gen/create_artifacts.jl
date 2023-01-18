@@ -10,7 +10,7 @@ artifact_toml = joinpath(@__DIR__, "../Artifacts.toml")
 include("geojson_files.jl")
 artifacts = get_naturalearth_geojson_metadata()
 
-for artifact in artifacts
+Main.ProgressMeter.@showprogress for artifact in artifacts
     (; name, url, lazy) = artifact
 
     # Query the `Artifacts.toml` file for the hash bound to `artifact.name`
@@ -23,14 +23,18 @@ for artifact in artifacts
         contents_hash = ""  # Capture the path to the artifact from the `do` block
         data_hash = create_artifact() do artifact_dir
             path = joinpath(artifact_dir, last(split(url, "/")))
-            download(url, path)
+            try
+                download(url, path)
+            catch e
+                download(replace(url, "raw.githubusercontent.com" => "rawcdn.githack.com"), path)
+            end
             contents_hash = bytes2hex(open(sha256, path))
         end
 
         # Now bind that hash within our `Artifacts.toml`.  `force = true` means that if it already exists,
         # just overwrite with the new content-hash.  Unless the source files change, we do not expect
         # the content hash to change, so this should not cause unnecessary version control churn.
-        download_info = [(url, contents_hash),]
+        download_info = [(url, contents_hash), (replace(url, "raw.githubusercontent.com" => "rawcdn.githack.com"), contents_hash)]
         bind_artifact!(artifact_toml, name, data_hash; lazy, download_info)
     end
 
