@@ -3,9 +3,10 @@ module NaturalEarth
 import GeoJSON
 using Pkg
 using Pkg.Artifacts
-using TOML
 
-const available_artifacts = collect(keys(TOML.parsefile(Artifacts.find_artifacts_toml(@__FILE__))))
+const available_artifacts = collect(keys(
+    Artifacts.select_downloadable_artifacts(Artifacts.find_artifacts_toml(@__FILE__); include_lazy=true)
+))
 
 export naturalearth, bathymetry
 
