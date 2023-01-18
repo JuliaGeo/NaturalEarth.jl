@@ -33,7 +33,7 @@ function get_naturalearth_geojson_metadata(;tag = NATURALEARTH_TAG)
     download_url(name) = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/$tag/geojson/$name"
 
     # list of artifacts to be non-lazy:
-    nonlazy = ["ne_50m_coastline.geojson", ]
+    nonlazy = ("ne_50m_coastline.geojson", "ne_110m_coastline.geojson", )
     islazy(name) = name ∉ nonlazy
 
     # create a list of artifacts

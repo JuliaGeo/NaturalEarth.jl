@@ -1,9 +1,13 @@
 module NaturalEarth
 
 import GeoJSON
+using Pkg
 using Pkg.Artifacts
+using TOML
 
-export naturalearth
+const available_artifacts = collect(keys(TOML.parsefile(Artifacts.find_artifacts_toml(@__FILE__))))
+
+export naturalearth, bathymetry
 
 """
     naturalearth(name::String)
