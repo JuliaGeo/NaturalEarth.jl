@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(NaturalEarth, :DocTestSetup, :(using NaturalEarth); recursiv
 makedocs(;
     modules=[NaturalEarth],
     authors="Anshul Singhvi <anshulsinghvi@gmail.com> and contributors",
-    repo="https://github.com/asinghvi17/NaturalEarth.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/JuliaGeo/NaturalEarth.jl/blob/{commit}{path}#{line}",
     sitename="NaturalEarth.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://asinghvi17.github.io/NaturalEarth.jl",
+        canonical="https://JuliaGeo.github.io/NaturalEarth.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/asinghvi17/NaturalEarth.jl",
+    repo="github.com/JuliaGeo/NaturalEarth.jl",
     devbranch="main",
 )
