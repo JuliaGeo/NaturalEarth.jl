@@ -1,5 +1,9 @@
+module NaturalEarth
+
 import GeoJSON
 using Pkg.Artifacts
+
+export naturalearth
 
 """
     naturalearth(name::String)
@@ -14,3 +18,5 @@ function naturalearth(name::String)
     @assert isfile(pth) "`$name` is not a valid NaturalEarth.jl artifact"
     GeoJSON.read(read(pth, String))
 end
+
+end  # end module

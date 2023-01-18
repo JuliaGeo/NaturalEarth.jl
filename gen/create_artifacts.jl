@@ -2,13 +2,13 @@ using Pkg.Artifacts
 using SHA
 
 # This is the path to the Artifacts.toml we will manipulate
-artifact_toml = joinpath(@__DIR__, "Artifacts.toml")
+artifact_toml = joinpath(@__DIR__, "../Artifacts.toml")
 
 # artifacts = [
 #     (; name="ne_10m_coastline", url="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_coastline.geojson", lazy=true),
 # ]
 include("geojson_files.jl")
-artifacts = _get_artifacts_names()
+artifacts = get_naturalearth_geojson_metadata()
 
 for artifact in artifacts
     (; name, url, lazy) = artifact
