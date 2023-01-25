@@ -1,8 +1,13 @@
 module NaturalEarth
 
-import GeoJSON
+import GeoJSON, LightXML
 using Pkg
 using Pkg.Artifacts
+using p7zip_jll
+using Scratch
+using Downloads
+
+download_cache = ""
 
 "A list of the names of available artifacts"
 const available_artifacts = collect(keys(
@@ -20,13 +25,17 @@ Valid names are found in `Artifacts.toml`.
 We aim to support all datasets listed in https://github.com/nvkelso/natural-earth-vector/tree/master/geojson
 """
 function naturalearth(dataset_name::String)
-    file_path = @artifact_str("$dataset_name/$dataset_name.geojson")
+    if dataset_name ∈ available_artifacts
+        file_path = @artifact_str("$dataset_name/$dataset_name.geojson")
+        return GeoJSON.read(read(file_path, String))
+    elseif dataset_name ∈ available_rasters
+    end
+
     @assert isfile(file_path) """
     `$dataset_name` is not a valid NaturalEarth.jl artifact!
     Please search https://www.naturalearthdata.com for available
     datasets.
     """
-    GeoJSON.read(read(file_path, String))
 end
 
 """
@@ -51,6 +60,34 @@ function bathymetry(contour::Int=2000)
     # Open bathymetry file
     bathyfile = bathyfiles[fileind]
     return naturalearth(bathyfile)
+end
+
+function _unpack_zip(zipfile, outputdir)
+    out = Pipe()
+    err = Pipe()
+    try
+        run(pipeline(`$(p7zip_jll.p7zip()) e $zipfile -o$outputdir -y `, stdout = out, stderr = err))
+    catch e
+
+        printstyled("Error in unzipping!"; bold = true, color = :red)
+        println()
+        printstyled("Stdout:"; bold = false, color = :blue)
+        println(read(out, String))
+        printstyled("Stderr:"; bold = false, color = :red)
+        println(read(err, String))
+        rethrow(e)
+    end
+end
+
+function _download_unpack(url::String)
+    scratchspace = Scratch.@get_scratch!("raster")
+    path = mkdir(joinpath(scratchspace, splitext(basename(url))[1]))
+    zipfile = Downloads.download(url)
+    _unpack_zip(zipfile, path)
+end
+
+function __init__()
+    global download_cache = Scratch.get_scratch!(@__MODULE__, "raster")
 end
 
 end  # end module
