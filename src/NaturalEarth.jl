@@ -6,6 +6,7 @@ using Pkg.Artifacts
 using p7zip_jll
 using Scratch
 using Downloads
+using LightXML
 
 download_cache = ""
 
@@ -79,15 +80,15 @@ function _unpack_zip(zipfile, outputdir)
     end
 end
 
-function _download_unpack(url::String)
-    scratchspace = Scratch.@get_scratch!("raster")
-    path = mkdir(joinpath(scratchspace, splitext(basename(url))[1]))
+function _download_unpack(url::String, path = splitext(basename(url))[1])
+    scratchspace = Scratch.@get_scratch!("rasters")
+    unpack_path = mkpath(joinpath(scratchspace, path))
     zipfile = Downloads.download(url)
-    _unpack_zip(zipfile, path)
+    _unpack_zip(zipfile, unpack_path)
 end
 
 function __init__()
-    global download_cache = Scratch.get_scratch!(@__MODULE__, "raster")
+    global download_cache = Scratch.get_scratch!(@__MODULE__, "rasters")
 end
 
 end  # end module
