@@ -69,8 +69,7 @@ function _unpack_zip(zipfile, outputdir)
     try
         run(pipeline(`$(p7zip_jll.p7zip()) e $zipfile -o$outputdir -y `, stdout = out, stderr = err))
     catch e
-
-        printstyled("Error in unzipping!"; bold = true, color = :red)
+        printstyled("Error while unzipping!"; bold = true, color = :red)
         println()
         printstyled("Stdout:"; bold = false, color = :blue)
         println(read(out, String))
