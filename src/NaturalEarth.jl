@@ -63,6 +63,24 @@ function bathymetry(contour::Int=2000)
     return naturalearth(bathyfile)
 end
 
+
+# Get rasters from AWS
+
+function get_available_rasters(refresh = false)
+    scratchspace = Scratch.@get_scratch!("rasters")
+    xml_file = joinpath(scratchspace, "index.xml")
+    # refresh the XML file
+    if !isfile(xml_file) || refresh
+        download("https://naturalearth.s3.amazonaws.com/", xml_file)
+    end
+    # read the document
+    xml_doc = LightXML.parse_file(xml_file);
+    # get the root node
+    xml_root = LightXML.root(xml_doc);
+    @assert name(xml_root) == "ListBucketResult" "The format of the NaturalEarth data dictionary at Amazon AWS has changed, or the file is invalid.  Please file an issue at https://github.com/JuliaGeo/NaturalEarth.jl/issues."
+    return deepcopy(attributes_dict(xml_root))
+end
+
 function _unpack_zip(zipfile, outputdir)
     out = Pipe()
     err = Pipe()
