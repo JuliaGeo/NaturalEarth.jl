@@ -161,31 +161,6 @@ function RasterDataSources.getraster(T::Type{NaturalEarthRaster{Version, Scale, 
     return raster_path
 end
 
-
-
-function _unpack_zip(zipfile, outputdir)
-    out = Pipe()
-    err = Pipe()
-    try
-        run(pipeline(`$(p7zip_jll.p7zip()) e $zipfile -o$outputdir -y `, stdout = out, stderr = err))
-    catch e
-        printstyled("Error while unzipping!"; bold = true, color = :red)
-        println()
-        printstyled("Stdout:"; bold = false, color = :blue)
-        println(read(out, String))
-        printstyled("Stderr:"; bold = false, color = :red)
-        println(read(err, String))
-        rethrow(e)
-    end
-end
-
-function _download_unpack(url::String, path = splitext(basename(url))[1])
-    scratchspace = Scratch.@get_scratch!("rasters")
-    unpack_path = mkpath(joinpath(scratchspace, path))
-    zipfile = Downloads.download(url)
-    _unpack_zip(zipfile, unpack_path)
-end
-
 function __init__()
     global download_cache = Scratch.get_scratch!(@__MODULE__, "rasters")
 end
