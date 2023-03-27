@@ -1,6 +1,6 @@
 module NaturalEarth
 
-import GeoJSON, LightXML
+import GeoJSON
 using Pkg
 using Pkg.Artifacts
 using p7zip_jll
@@ -102,12 +102,13 @@ end
 # end
 
 # Implement the RasterDataSources.jl interface.
-# With this, you can call e.g. 
-# Rasters.Raster(NaturalEarthRaster{:latest, 10, :HYP_HR}, nothing)
+# With this, you can call e.g. # Rasters.Raster(NaturalEarthRaster{:latest, 10, :HYP_HR}, nothing)
 
 struct NaturalEarthRaster{Version, Scale, Name} <: RasterDataSources.RasterDataSource end
 
-ne_raster(; version = nothing, scale::Int = 10, name::Int) = NaturalEarthRaster{version == nothing ? Symbol(VersionNumber(typemax(UInt32))), scale, Symbol(name)}
+function ne_raster(; version = :latest, scale::Int = 10, name::Int) 
+    NaturalEarthRaster{Symbol(version), scale, Symbol(name)}
+end
 
 const _NATURALEARTH_URI = RasterDataSources.URIs.URI(scheme="https", host="naturalearth.s3.amazonaws.com", path="/")
 
@@ -122,6 +123,8 @@ function _zippath(::Type{NaturalEarthRaster{Version, Scale, Name}}) where {Versi
         error("Invalid scale: $Scale")
     end * "/" * string(Name) * ".zip"
 end
+
+_zipfile_to_read(raster_name, zf) = first(filter(f -> splitdir(f.name)[2] == raster_name, zf.files))
 
 function RasterDataSources.zippath(::Type{NaturalEarthRaster{Version, Scale, Name}}) where {Version, Scale, Name}
     return joinpath(RasterDataSources.rasterpath(), "NaturalEarth", "zips", split(_zippath(NaturalEarthRaster{Version, Scale, Name}), "/")...)
@@ -152,7 +155,7 @@ function RasterDataSources.getraster(T::Type{NaturalEarthRaster{Version, Scale, 
         mkpath(dirname(raster_path))
         raster_name = RasterDataSources.rastername(T)
         @show zf
-        write(raster_path, read(RasterDataSources._zipfile_to_read(joinpath(splitext(raster_name)[1], raster_name), zf)))
+        write(raster_path, read(RasterDataSources._zipfile_to_read(raster_name, zf)))
         close(zf)
     end
     return raster_path
@@ -218,7 +221,11 @@ function ne_file_name(scale::Int, type::String, category::String)
     end
 end
 
-function(scale = 110,
+end # module
+
+# This is the name checker implementation for the NaturalEarth R package.
+
+# function(scale = 110,
 #                          type = "countries",
 #                          category = c("cultural", "physical", "raster"),
 #                          full_url = FALSE) {
