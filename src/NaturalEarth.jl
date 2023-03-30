@@ -155,7 +155,7 @@ function RasterDataSources.getraster(T::Type{NaturalEarthRaster{Version, Scale, 
         mkpath(dirname(raster_path))
         raster_name = RasterDataSources.rastername(T)
         @show zf
-        write(raster_path, read(RasterDataSources._zipfile_to_read(raster_name, zf)))
+        write(raster_path, read(_zipfile_to_read(raster_name, zf)))
         close(zf)
     end
     return raster_path
