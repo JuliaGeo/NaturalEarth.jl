@@ -1551,7 +1551,6 @@ lazy = true
 
 [ne_110m_coastline]
 git-tree-sha1 = "d406fc04a98365c298b3558c2b93693ea11c7c7e"
-lazy = true
 
     [[ne_110m_coastline.download]]
     sha256 = "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c"
