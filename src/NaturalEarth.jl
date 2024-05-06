@@ -90,10 +90,10 @@ function bathymetry(contour::Int=2000)
     available_depths = [10000, 9000, 8000, 7000, 6000, 5000, 4000, 3000, 2000, 1000, 200, 0]
     # Extract the file corresponding to the contour
     fileind = findfirst(==(contour), available_depths)
-    isnothing(fileind) && error("Contour $contour not found. Available contours: $(sort(depths))")
+    isnothing(fileind) && error("Contour $contour not found. Available contours: \n$(available_depths)")
     # Open bathymetry file.  They are prefixed by a letter corresponding to depth in reverse order from A to K,
     # so we perform a bit of arithmetic to obtain that.
-    return naturalearth("10m_$('A' + (fileind - 1))_$(contour)")
+    return naturalearth("10m_bathymetry_$('A' + (fileind - 1))_$(contour)")
 end
 
 geojson_file_name(name, scale) = "ne_$(scale)m_$(name).geojson"

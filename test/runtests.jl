@@ -9,5 +9,5 @@ using Test
         @test bathymetry(4000) isa NaturalEarth.GeoJSON.FeatureCollection
     end
     # This tests for an error in filename.
-    @test_throws "RequestError" naturalearth("asfhcsakdlfjnskfas")
+    @test_throws "404" naturalearth("asfhcsakdlfjnskfas")
 end
