@@ -5,6 +5,9 @@ using Test
     # Write your tests here.
     @testset "Bathymetry" begin
         @test_throws "Available contours" bathymetry(10000000)
-        @test_nowarn bathymetry(4000)
+        # This also tests the whole pipeline...
+        @test bathymetry(4000) isa NaturalEarth.GeoJSON.FeatureCollection
     end
+    # This tests for an error in filename.
+    @test_throws "RequestError" naturalearth("asfhcsakdlfjnskfas")
 end
