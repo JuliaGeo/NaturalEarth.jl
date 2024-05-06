@@ -93,7 +93,7 @@ function bathymetry(contour::Int=2000)
     isnothing(fileind) && error("Contour $contour not found. Available contours: $(sort(depths))")
     # Open bathymetry file.  They are prefixed by a letter corresponding to depth in reverse order from A to K,
     # so we perform a bit of arithmetic to obtain that.
-    return naturalearth("10m_$('A' + (fileind - 1))_$(contour)", bathyfiles)
+    return naturalearth("10m_$('A' + (fileind - 1))_$(contour)")
 end
 
 geojson_file_name(name, scale) = "ne_$(scale)m_$(name).geojson"
