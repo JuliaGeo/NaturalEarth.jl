@@ -11,6 +11,16 @@ Currently, this package provides a single function, `naturalearth`, which fetche
 
 The data is downloaded on demand and cached using Julia's scratch space system. This means that the first time you fetch a dataset, it will take a while to download, and you will need an internet connection. Subsequent calls will be much faster, even in a new session.
 
+## Quick start
+
+You can install the Natural Earth package through the Julia package manager: `using Pkg; Pkg.add("NaturalEarth")`.  The main entry point is the `naturalearth(dataset, [scale])` function which returns a `GeoJSON.FeatureCollection` from [GeoJSON.jl](https://github.com/JuliaGeo/GeoJSON.jl).
+
+```julia
+using NaturalEarth
+naturalearth("admin_0_countries", 110) # this resolves to `ne_110m_admin_0_countries.geojson`
+naturalearth("10m_admin_0_countries")  # this gets the 10m-scale, but explicitly
+```
+These return `GeoJSON.FeatureCollections`, which you can either use as-is or convert to `DataFrames` (by `DataFrame(naturalearth(...))`).
 ## Acknowledgements
 
 All datasets are provided by [Natural Earth](http://www.naturalearthdata.com/).
