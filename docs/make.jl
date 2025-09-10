@@ -9,7 +9,7 @@ makedocs(;
     sitename="NaturalEarth.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://juliageo.org/NaturalEarth.jl",
+        canonical="github.com/JuliaGeo/NaturalEarth.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -19,7 +19,8 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="https://github.com/JuliaGeo/NaturalEarth.jl",
+    repo="github.com/JuliaGeo/NaturalEarth.jl",
+    branch = "gh-pages",
     devbranch="main",
     push_preview = true,
 )
