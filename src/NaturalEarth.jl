@@ -57,7 +57,7 @@ function naturalearth(full_name::String; version::Union{VersionNumber, String} =
         # Download from Githack CDN
         # We could change this later, to use zipped Shapefiles and return a GeoDataFrame or something
         try
-            Downloads.download("https://rawcdn.githack.com/nvkelso/natural-earth-vector/$version_string/geojson/$filename", filepath)
+            Downloads.download("https://raw.githubusercontent.com/nvkelso/natural-earth-vector/$version_string/geojson/$filename", filepath)
         catch e
             if e isa Downloads.RequestError
                 @error("NaturalEarth.jl: Could not download file $filename. Check the name and try again.")
