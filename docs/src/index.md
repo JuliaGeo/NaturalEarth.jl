@@ -12,4 +12,5 @@ Documentation for [NaturalEarth](https://github.com/asinghvi17/NaturalEarth.jl).
 ```@docs
 naturalearth
 bathymetry
+set_mirror!
 ```

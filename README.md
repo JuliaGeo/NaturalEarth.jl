@@ -21,6 +21,18 @@ naturalearth("admin_0_countries", 110) # this resolves to `ne_110m_admin_0_count
 naturalearth("10m_admin_0_countries")  # this gets the 10m-scale, but explicitly
 ```
 These return `GeoJSON.FeatureCollections`, which you can either use as-is or convert to `DataFrames` (by `DataFrame(naturalearth(...))`).
+
+## Configuration
+
+By default, data is downloaded from the [Githack](https://raw.githack.com/) CDN. If you encounter certificate or availability issues, you can switch to downloading directly from GitHub:
+
+```julia
+using NaturalEarth
+NaturalEarth.set_mirror!("github")  # or "githack" to switch back
+```
+
+The setting is stored as a Julia preference and persists across sessions; restart Julia for the change to take effect.
+
 ## Acknowledgements
 
 All datasets are provided by [Natural Earth](http://www.naturalearthdata.com/).
