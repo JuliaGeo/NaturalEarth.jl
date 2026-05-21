@@ -10,4 +10,8 @@ using Test
     end
     # This tests for an error in filename.
     @test_throws "404" naturalearth("asfhcsakdlfjnskfas")
+    @testset "set_mirror!" begin
+        @test_throws ArgumentError set_mirror!("bogus")
+        @test Set(keys(NaturalEarth.MIRROR_URLS)) == Set(["githack", "github"])
+    end
 end

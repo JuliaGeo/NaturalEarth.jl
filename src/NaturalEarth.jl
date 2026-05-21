@@ -2,17 +2,23 @@ module NaturalEarth
 
 import GeoJSON, Downloads
 using Scratch
+using Preferences
 
 const naturalearth_cache = Ref{String}("")
 
+const MIRROR_URLS = Dict(
+    "githack" => "https://rawcdn.githack.com/nvkelso/natural-earth-vector",
+    "github"  => "https://raw.githubusercontent.com/nvkelso/natural-earth-vector",
+)
+
 function __init__()
-    # Populate the cache by obtaining a directory for the 
+    # Populate the cache by obtaining a directory for the
     # scratchspace.
     global naturalearth_cache
     naturalearth_cache[] = @get_scratch!("naturalearth")
 end
 
-export naturalearth, bathymetry
+export naturalearth, bathymetry, set_mirror!
 
 """
     naturalearth(name::String; version = v"5.1.2")
@@ -54,10 +60,11 @@ function naturalearth(full_name::String; version::Union{VersionNumber, String} =
     # Check that version's cache before downloading
     filepath = joinpath(naturalearth_cache[], version_string, filename)
     if !isfile(filepath)
-        # Download from Githack CDN
-        # We could change this later, to use zipped Shapefiles and return a GeoDataFrame or something
+        mirror = @load_preference("mirror", "githack")
+        haskey(MIRROR_URLS, mirror) || error("NaturalEarth.jl: unknown mirror $(repr(mirror)). Valid mirrors: $(join(sort(collect(keys(MIRROR_URLS))), ", ")). Use `NaturalEarth.set_mirror!(name)` to change it.")
+        base_url = MIRROR_URLS[mirror]
         try
-            Downloads.download("https://rawcdn.githack.com/nvkelso/natural-earth-vector/$version_string/geojson/$filename", filepath)
+            Downloads.download("$base_url/$version_string/geojson/$filename", filepath)
         catch e
             if e isa Downloads.RequestError
                 @error("NaturalEarth.jl: Could not download file $filename. Check the name and try again.")
@@ -97,6 +104,22 @@ function bathymetry(contour::Int=2000)
 end
 
 geojson_file_name(name, scale) = "ne_$(scale)m_$(name).geojson"
+
+"""
+    set_mirror!(name::AbstractString)
+
+Set the mirror used to download NaturalEarth data. Valid values are `"githack"`
+(default; uses `rawcdn.githack.com`) and `"github"` (uses `raw.githubusercontent.com`).
+
+The setting is stored as a Julia preference (via Preferences.jl) and persists across
+sessions. A Julia restart is required for the change to take effect.
+"""
+function set_mirror!(name::AbstractString)
+    haskey(MIRROR_URLS, name) || throw(ArgumentError("Unknown mirror $(repr(name)). Valid mirrors: $(join(sort(collect(keys(MIRROR_URLS))), ", "))."))
+    @set_preferences!("mirror" => name)
+    @info "NaturalEarth mirror set to $(repr(name)). Restart Julia for the change to take effect."
+    return nothing
+end
 
 
 end  # end module
